@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/mainstyles.css">
     <link rel="stylesheet" href="./src/styles/index.css">
+
+    <script src="./src/scripts/index_menu.js"></script>
+
     <title>ABYSSE</title>
 </head>
 
@@ -13,6 +16,36 @@
     <div class="flex-container">
         <div class="left-column">
             <div class="link-wrap-left">
+                <nav class="menu" tabindex="0">
+                    <header class="avatar">
+                        <img src="img/icons and labels/main_icon.png" />
+                    </header>
+                    <a onclick="window.location.href='./src/information/info.html'">
+                        <img id="change-cursor" src="./img/menu/intro1.png" width="240" height="90" name="menu_option_1"
+                            onmouseout="imgSwitch('menu_option_1', './img/menu/intro1.png');"
+                            onmouseover="imgSwitch('menu_option_1', './img/menu/intro2.png');" />
+                    </a>
+                    <a onclick="window.location.href='#'">
+                        <img id="change-cursor" src="./img/menu/gallery1_1.png" width="240" height="90"
+                            name="menu_option_2" onmouseout="imgSwitch('menu_option_2', './img/menu/gallery1_1.png');"
+                            onmouseover="imgSwitch('menu_option_2', './img/menu/gallery1_2.png');" />
+                    </a>
+                    <a onclick="window.location.href='#'">
+                        <img id="change-cursor" src="./img/menu/gallery2_1.png" width="240" height="90"
+                            name="menu_option_3" onmouseout="imgSwitch('menu_option_3', './img/menu/gallery2_1.png');"
+                            onmouseover="imgSwitch('menu_option_3', './img/menu/gallery2_2.png');" />
+                    </a>
+                    <a onclick="window.location.href='#'">
+                        <img id="change-cursor" src="./img/menu/gallery3_1.png" width="240" height="90"
+                            name="menu_option_4" onmouseout="imgSwitch('menu_option_4', './img/menu/gallery3_1.png');"
+                            onmouseover="imgSwitch('menu_option_4', './img/menu/gallery3_2.png');" />
+                    </a>
+                    <a onclick="window.location.href='#'">
+                        <img id="change-cursor" src="./img/menu/index1.png" width="240" height="90" name="menu_option_5"
+                            onmouseout="imgSwitch('menu_option_5', './img/menu/index1.png');"
+                            onmouseover="imgSwitch('menu_option_5', './img/menu/index2.png');" />
+                    </a>
+                </nav>
             </div>
         </div>
         <div class="right-column">
