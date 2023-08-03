@@ -1,0 +1,35 @@
+  html,
+  body {
+    background: black;
+    font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    height: 104%;
+    overflow-y: hidden;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: #f1eee9;
+    height: 100%;
+    font-family: sans-serif;
+  }
+
+  .left-column,
+  .right-column {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .left-column {
+    background-color: black;
+    width: 25%;
+  }
+
+  .right-column {
+    background-image: url('../../img/backgrounds/background.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    width: 75%;
+  }

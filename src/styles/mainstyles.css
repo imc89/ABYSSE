@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    cursor: url('https://raw.githubusercontent.com/imc89/ABYSSE/main/img/cursor/mainCursor_1.png') 32 32, auto; 
+    /* -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; */
+}
