@@ -1,6 +1,6 @@
 // La configuración regional que muestra nuestra aplicación.
 // The locale displayed by our application.
-const defaultLocale = "es";
+let defaultLocale = "es";
 // La configuración regional activa.
 // The active locale.
 let locale;
@@ -10,13 +10,26 @@ let locale;
 document.addEventListener("DOMContentLoaded", () => {
     // Traducir la página a la configuración regional por defecto.
     // Translate the page to the default locale.
+    if (defaultLocale) {
+        defaultLocale = window.sessionStorage.getItem('lang');
+        if (defaultLocale) {
+            bindLocaleSwitcher(defaultLocale);
+        } else {
+            bindLocaleSwitcher('es');
+        }
+    }
     setLocale(defaultLocale);
-    bindLocaleSwitcher(defaultLocale);
 });
 
 // Cargar traducciones para la localización elegida y traducir la página.
 // Load translations for the chosen localisation and translate the page.
 async function setLocale(newLocale) {
+    let save_lang = document.querySelector("select");
+    if (save_lang) {
+        if (save_lang.value) {
+            newLocale = save_lang.value;
+        }
+    }
     if (newLocale === locale) return;
     const newTranslations =
         await fetchTranslationsFor(newLocale);
@@ -51,12 +64,14 @@ function translateElement(element) {
 // Cada vez que el usuario selecciona un nuevo idioma cargamos las traducciones y actualizamos la página.
 // Each time the user selects a new language we load the translations and refresh the page.
 function bindLocaleSwitcher(initialValue) {
-    const switcher =
-        document.querySelector("[data-i18n-switcher]");
-    switcher.value = initialValue;
-    switcher.onchange = (e) => {
-        // Establecer la configuración regional a la opción seleccionada.
-        // Set the locale settings to the selected option.
-        setLocale(e.target.value);
-    };
+    const switcher = document.querySelector("[data-i18n-switcher]");
+    if (switcher) {
+        switcher.value = initialValue;
+        switcher.onchange = (e) => {
+            // Establecer la configuración regional a la opción seleccionada.
+            // Set the locale settings to the selected option.
+            setLocale(e.target.value);
+            window.sessionStorage.setItem('lang', e.target.value);
+        };
+    }
 }
