@@ -5,14 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/mainstyles.css">
+    <link rel="stylesheet" href="./src/styles/translator-styles.css">
+    <link rel="stylesheet" href="./src/styles/searcher-style.css">
+
     <link rel="stylesheet" href="./src/styles/index.css">
 
     <script src="./src/scripts/index_menu.js"></script>
+    <script src="./src/scripts/translators.js"></script>
+
 
     <title>ABYSSE</title>
 </head>
 
 <body>
+    <div class="tools-container">
+        <section class="webdesigntuts-workshop leftcorner tool">
+            <div class="form">		    
+                <input style="--color: white;" id="data" type="search" autocomplete="off" placeholder="¿Qué especie deseas buscar?">		    	
+                <button onclick="search()">BUSCAR</button>
+            </div>
+        </section>
+        <div class="translator-container tool">
+            <select data-i18n-switcher class="locale-switcher translator">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </div>
+   
     <div class="flex-container">
         <div class="left-column">
             <div class="link-wrap-left">
@@ -50,6 +70,7 @@
         </div>
         <div class="right-column">
             <div class="link-wrap-right">
+                <h1 data-i18n-key="app-title">Esto es una prueba de traductor</h1>
             </div>
         </div>
     </div>

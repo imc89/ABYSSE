@@ -65,3 +65,14 @@ body {
   border: 4px solid darkred;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
 }
+
+.tools-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+
+.tool {
+  margin-right: 10px;
+}
