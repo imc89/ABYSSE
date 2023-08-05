@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/mainstyles.css">
     <link rel="stylesheet" href="./src/styles/translator-styles.css">
+    <link rel="stylesheet" href="./src/styles/toogle-style.css">
     <link rel="stylesheet" href="./src/styles/searcher-style.css">
+    <link rel="stylesheet" href="./src/styles/autocomplete-styles.css">
+
+
 
     <link rel="stylesheet" href="./src/styles/index.css">
 
     <script src="./src/scripts/imgSwitch.js"></script>
     <script src="./src/scripts/searcher.js"></script>
+    <script src="./src/scripts/autocomplete.js"></script>
     <script src="./src/scripts/translators.js"></script>
 
 
@@ -20,13 +25,27 @@
 
 <body>
     <div class="tools-container">
-        <section class="webdesigntuts-workshop tool">
-            <div class="form">
-                <input style="--color: white;" id="data" type="search" autocomplete="off"
-                    placeholder="¿Qué especie deseas buscar?">
-                <button onclick="search()">BUSCAR</button>
+        <div>
+            <section class="webdesigntuts-workshop tool">
+                <div class="form container">
+                    <input style="--color: white;" id="data" type="search" autocomplete="off"
+                        placeholder="¿Qué especie deseas buscar?">
+                    <button onclick="search()">BUSCAR</button>
+                    <ul id="autocomplete-data" class="hidden" role='listbox' aria-label='Search for a species'>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="toogle">
+                <div class="toogle-labels">
+                    <p class="toogle-label">COMMON</p>
+                    <label class="switch"><input id="toogle" type="checkbox" onclick="toogleSearch()" />
+                        <div></div>
+                    </label>
+                    <p class="toogle-label">LATIN</p>
+                </div>
             </div>
-        </section>
+        </div>
         <div class="translator-container tool">
             <select data-i18n-switcher class="locale-switcher translator">
                 <option value="es">Español</option>
@@ -73,16 +92,17 @@
         <div class="right-column">
             <div class="link-wrap-right">
                 <div id="main">
-                    <p data-i18n-key="main-text.1" class="text" style="margin-top: 225px;"> Ocupa el 70,8% de la superficie de la Tierra.</p>
-                        <p data-i18n-key="main-text.2">Con una profundidad media de 3.795 m.</p>
-                        <p data-i18n-key="main-text.3">El océano, la mayor biosfera de la Tierra,</p>
-                        <p data-i18n-key="main-text.4">es un vasto y cruel mundo de oscuridad,</p>
-                        <p data-i18n-key="main-text.5">alta presión y bajas temperaturas donde</p>
-                        <p data-i18n-key="main-text.6">hay criaturas que viven y prosperan</p>
-                        <p data-i18n-key="main-text.7">en este inmenso e inhóspito mundo.</p>
-                        <p data-i18n-key="main-text.8">Conozcamos a los habitantes de las profundidades,</p>
-                        <p data-i18n-key="main-text.9"> un espacio poco conocido que sigue</p>
-                        <p data-i18n-key="main-text.10"> resistiéndose a la intrusión humana...</p>
+                    <p data-i18n-key="main-text.1" class="text" style="margin-top: 225px;"> Ocupa el 70,8% de la
+                        superficie de la Tierra.</p>
+                    <p data-i18n-key="main-text.2">Con una profundidad media de 3.795 m.</p>
+                    <p data-i18n-key="main-text.3">El océano, la mayor biosfera de la Tierra,</p>
+                    <p data-i18n-key="main-text.4">es un vasto y cruel mundo de oscuridad,</p>
+                    <p data-i18n-key="main-text.5">alta presión y bajas temperaturas donde</p>
+                    <p data-i18n-key="main-text.6">hay criaturas que viven y prosperan</p>
+                    <p data-i18n-key="main-text.7">en este inmenso e inhóspito mundo.</p>
+                    <p data-i18n-key="main-text.8">Conozcamos a los habitantes de las profundidades,</p>
+                    <p data-i18n-key="main-text.9"> un espacio poco conocido que sigue</p>
+                    <p data-i18n-key="main-text.10"> resistiéndose a la intrusión humana...</p>
                 </div>
                 </main>
 

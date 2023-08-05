@@ -1,0 +1,30 @@
+ul {
+    position: absolute;
+    top: 100%;
+    margin-top: -1px;
+    width: 100%;
+    background: #fff;
+    margin: 0;
+    list-style: none;
+    transition: none;
+    padding: 0;
+    border: 1px solid #bfc8c9;
+  }
+  ul li {
+    padding: 16px 22px;
+    cursor: pointer;
+  }
+  ul li.selected {
+   background: rgba(0, 0, 0, 0.08);
+  }
+  ul li:hover {
+    color:black
+  }
+  ul li + li {
+    border-top: 1px solid #bfc8c9;
+    color:black;
+    display: block
+  }
+  .hidden {
+    display: none;
+  }
