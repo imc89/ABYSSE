@@ -59,6 +59,18 @@ function translateElement(element) {
     const key = element.getAttribute("data-i18n-key");
     const translation = translations[key];
     element.innerText = translation;
+    // placeholders translations
+    if (document.querySelector('#data')) {
+        if (locale === "es") {
+            document.querySelector('#data').style.fontSize = "13px";
+
+            document.querySelector('#data').placeholder = "¿Qué especie deseas buscar?";
+        }
+        else {
+            document.querySelector('#data').style.fontSize = "11px";
+            document.querySelector('#data').placeholder = "What species are you looking for?";
+        }
+    }
 }
 
 // Cada vez que el usuario selecciona un nuevo idioma cargamos las traducciones y actualizamos la página.

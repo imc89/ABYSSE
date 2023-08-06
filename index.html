@@ -31,7 +31,7 @@
                 <div class="form container">
                     <input style="--color: white;" id="data" type="search" autocomplete="off"
                         placeholder="¿Qué especie deseas buscar?">
-                    <button onclick="search()">BUSCAR</button>
+                    <button onclick="search()" data-i18n-key="main-search-button">BUSCAR</button>
                     <ul id="autocomplete-data" class="hidden" role='listbox' aria-label='Search for a species'>
                     </ul>
                 </div>
@@ -39,11 +39,12 @@
 
             <div class="toggle">
                 <div class="toggle-labels">
-                    <p class="toggle-label toggle-label-common glow">COMMON</p>
-                    <label class="switch change-cursor"><input id="toggle" class="change-cursor" type="checkbox" onclick="toggleSwitch()"/>
+                    <p class="toggle-label toggle-label-common glow" onclick="toggleSwitch()" data-i18n-key="main-search-common">COMÚN</p>
+                    <label class="switch change-cursor">
+                        <input id="toggle" class="change-cursor" type="checkbox" onclick="toggleSwitch()"/>
                         <div class="change-cursor"></div>
                     </label>
-                    <p class="toggle-label toggle-label-latin">LATIN</p>
+                    <p class="toggle-label toggle-label-latin" onclick="toggleSwitch()" data-i18n-key="main-search-latin">LATIN</p>
                 </div>
             </div>
         </div>
