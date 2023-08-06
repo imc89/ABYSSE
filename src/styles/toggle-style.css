@@ -1,4 +1,4 @@
-.toogle {
+.toggle {
     height: 40px;
     text-align: center;
     margin-top: 5px;
@@ -6,13 +6,13 @@
 
 }
 
-.toogle-labels {
+.toggle-labels {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.toogle-label {
+.toggle-label {
     margin: 5px;
     font-size: 12px;
 }
@@ -62,7 +62,7 @@
 }
 
 
-.toogle-label {
+.toggle-label {
     margin: 5px;
 }
 

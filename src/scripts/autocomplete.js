@@ -18,7 +18,7 @@ function init() {
     handleResultClick(event);
   });
   inputElem.addEventListener("input", (event) => {
-    if (document.getElementById('toogle').checked) {
+    if (document.getElementById('toggle').checked) {
       filterSearch = 'latin';
       autocomplete(event, 'latin');
     } else {
