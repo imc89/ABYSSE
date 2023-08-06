@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/styles/toogle-style.css">
     <link rel="stylesheet" href="./src/styles/searcher-style.css">
     <link rel="stylesheet" href="./src/styles/autocomplete-styles.css">
+    <link rel="stylesheet" href="./src/styles/prueba.css">
 
 
 
@@ -16,6 +17,7 @@
 
     <script src="./src/scripts/imgSwitch.js"></script>
     <script src="./src/scripts/searcher.js"></script>
+    <script src="./src/scripts/toogleSwitch.js"></script>
     <script src="./src/scripts/autocomplete.js"></script>
     <script src="./src/scripts/translators.js"></script>
 
@@ -36,13 +38,19 @@
                 </div>
             </section>
 
+            <!--  -->
+            <!-- <label class="switchBtn">
+                <input type="checkbox" onclick="toogleSwitch()">
+                <div class="slide round" id="toogle-label">Filter On</div>
+            </label> -->
+            <!--  -->
             <div class="toogle">
                 <div class="toogle-labels">
-                    <p class="toogle-label">COMMON</p>
-                    <label class="switch"><input id="toogle" type="checkbox" onclick="toogleSearch()" />
-                        <div></div>
+                    <p class="toogle-label toogle-label-common glow">COMMON</p>
+                    <label style="background: lightskyblue;" class="switch change-cursor"><input id="toogle" class="change-cursor" type="checkbox" onclick="toogleSwitch()"/>
+                        <div class="change-cursor"></div>
                     </label>
-                    <p class="toogle-label">LATIN</p>
+                    <p class="toogle-label toogle-label-latin">LATIN</p>
                 </div>
             </div>
         </div>
@@ -62,27 +70,27 @@
                         <img src="./img/icons_and_labels/main_icon.png" />
                     </header>
                     <a onclick="window.location.href='./src/info/info.html'">
-                        <img id="change-cursor" src="./img/menu/intro1.png" width="240" height="90" name="menu_option_1"
+                        <img class="change-cursor" src="./img/menu/intro1.png" width="240" height="90" name="menu_option_1"
                             onmouseout="imgSwitch('menu_option_1', './img/menu/intro1.png');"
                             onmouseover="imgSwitch('menu_option_1', './img/menu/intro2.png');" />
                     </a>
                     <a onclick="window.location.href='./src/galleries/gallery_1/gallery.html'">
-                        <img id="change-cursor" src="./img/menu/gallery1_1.png" width="240" height="90"
+                        <img class="change-cursor" src="./img/menu/gallery1_1.png" width="240" height="90"
                             name="menu_option_2" onmouseout="imgSwitch('menu_option_2', './img/menu/gallery1_1.png');"
                             onmouseover="imgSwitch('menu_option_2', './img/menu/gallery1_2.png');" />
                     </a>
                     <a onclick="window.location.href='#'">
-                        <img id="change-cursor" src="./img/menu/gallery2_1.png" width="240" height="90"
+                        <img class="change-cursor" src="./img/menu/gallery2_1.png" width="240" height="90"
                             name="menu_option_3" onmouseout="imgSwitch('menu_option_3', './img/menu/gallery2_1.png');"
                             onmouseover="imgSwitch('menu_option_3', './img/menu/gallery2_2.png');" />
                     </a>
                     <a onclick="window.location.href='#'">
-                        <img id="change-cursor" src="./img/menu/gallery3_1.png" width="240" height="90"
+                        <img class="change-cursor" src="./img/menu/gallery3_1.png" width="240" height="90"
                             name="menu_option_4" onmouseout="imgSwitch('menu_option_4', './img/menu/gallery3_1.png');"
                             onmouseover="imgSwitch('menu_option_4', './img/menu/gallery3_2.png');" />
                     </a>
                     <a onclick="window.location.href='#'">
-                        <img id="change-cursor" src="./img/menu/index1.png" width="240" height="90" name="menu_option_5"
+                        <img class="change-cursor" src="./img/menu/index1.png" width="240" height="90" name="menu_option_5"
                             onmouseout="imgSwitch('menu_option_5', './img/menu/index1.png');"
                             onmouseover="imgSwitch('menu_option_5', './img/menu/index2.png');" />
                     </a>

@@ -8,7 +8,7 @@
         user-select: none; */
 }
 
-#change-cursor:hover {
+.change-cursor:hover {
     cursor: url('https://raw.githubusercontent.com/imc89/ABYSSE/main/img/cursor/mainCursor_2.png') 32 32, auto;
 }
 
