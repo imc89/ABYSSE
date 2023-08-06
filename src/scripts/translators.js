@@ -63,7 +63,6 @@ function translateElement(element) {
     if (document.querySelector('#data')) {
         if (locale === "es") {
             document.querySelector('#data').style.fontSize = "13px";
-
             document.querySelector('#data').placeholder = "¿Qué especie deseas buscar?";
         }
         else {

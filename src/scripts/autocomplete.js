@@ -32,7 +32,13 @@ function init() {
 }
 
 function autocomplete(event, filterSearch) {
-  const value = inputElem.value;
+  // Change placeholder font size when write to see bigger letters
+  if (document.querySelector('#data').value === '') {
+    document.querySelector('#data').style.fontSize = "11px";
+  } else {
+    document.querySelector('#data').style.fontSize = "13px";
+  } const value = inputElem.value;
+
   if (!value) {
     hideResults();
     inputElem.value = "";
