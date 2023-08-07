@@ -31,7 +31,7 @@
                 <div class="form container">
                     <input style="--color: white;" id="data" type="search" autocomplete="off"
                         placeholder="¿Qué especie deseas buscar?">
-                    <button onclick="search()" data-i18n-key="main-search-button">BUSCAR</button>
+                    <button onclick="search()" data-i18n-key="main-search-button" class="change-cursor">BUSCAR</button>
                     <ul id="autocomplete-data" class="hidden" role='listbox' aria-label='Search for a species'>
                     </ul>
                 </div>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="translator-container tool">
-            <select data-i18n-switcher class="locale-switcher translator">
+            <select data-i18n-switcher class="locale-switcher translator change-cursor">
                 <option value="es">Español</option>
                 <option value="en">English</option>
             </select>

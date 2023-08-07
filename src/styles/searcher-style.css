@@ -116,7 +116,6 @@
 	background: linear-gradient(#393939, #292929);
 	color: rgb(85, 235, 255);
 	outline: none;
-    cursor: pointer;
 }
 
 .webdesigntuts-workshop button:active {

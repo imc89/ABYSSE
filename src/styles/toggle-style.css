@@ -52,15 +52,14 @@
     -webkit-transition: all 100ms;
     -moz-transition: all 100ms;
     transition: all 100ms;
-    -webkit-animation: glow 800ms ease-out infinite alternate;
-    animation: glow 800ms ease-out infinite alternate;
+    -webkit-animation: glowToggle 800ms ease-out infinite alternate;
+    animation: glowToggle 800ms ease-out infinite alternate;
     background: #222922;
     background: linear-gradient(#333933, #222922);
     border-color: 1px solid rgb(51, 66, 153);
     box-shadow: 0 0 5px rgba(0, 13, 255, 0.2), inset 0 0 5px rgba(0, 26, 255, 0.1), 0 2px 0 #000;
     color: #efe;
     outline: none;
-    
 }
 
 .switch div:hover {

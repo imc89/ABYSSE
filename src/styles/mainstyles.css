@@ -18,24 +18,61 @@
     margin-right: auto;
 }
 
-.topcorner{
-    position:absolute;
-    top:0;
-    right:0;
+.topcorner {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-.leftcorner{
-    position:absolute;
-    top:0;
-    left:0;
+.leftcorner {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .infoBox {
-   width: 900px;
-   margin: auto;
-   background-color: black;
-   padding: 25px;
-   box-shadow: 0px 2px 8px 0px rgba(18,104,150,0.5), 0px 4px 16px 0px rgba(107,172,201,0.5);
-   border-radius: 20px;
-   margin-bottom: 25px;
+    width: 900px;
+    margin: auto;
+    background-color: black;
+    padding: 25px;
+
+    border: 0.01em solid hwb(0 0% 100%);
+    color: #999999;
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    transition: all 100ms;
+    -webkit-animation: info-glow 800ms ease-out infinite alternate;
+    animation: info-glow 800ms ease-out infinite alternate;
+    border-color: 1px solid rgb(51, 66, 153);
+    box-shadow: 0 0 5px rgba(0, 13, 255, 0.2), inset 0 0 5px rgba(0, 26, 255, 0.1), 0 2px 0 #000;
+    outline: none;
+}
+
+
+@-webkit-keyframes info-glow {
+    0% {
+        border-color: rgb(51, 105, 153);
+        border-radius: 1em;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.2), inset 0 0 5px rgba(0, 213, 255, 0.1), 0 2px 0 #000;
+    }
+
+    100% {
+        border-color: rgb(102, 255, 252);
+        border-radius: 1em;
+        box-shadow: 0 0 20px rgba(0, 110, 255, 0.6), inset 0 0 10px rgba(0, 38, 255, 0.4), 0 2px 0 #000;
+    }
+}
+
+@keyframes info-glow {
+    0% {
+        border-color: rgb(51, 114, 153);
+        border-radius: 1em;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.2), inset 0 0 5px rgba(0, 247, 255, 0.1), 0 2px 0 #000;
+    }
+
+    100% {
+        border-color: rgb(102, 242, 255);
+        border-radius: 1em;
+        box-shadow: 0 0 20px rgba(0, 132, 255, 0.6), inset 0 0 10px rgba(0, 170, 255, 0.4), 0 2px 0 #000;
+    }
 }
