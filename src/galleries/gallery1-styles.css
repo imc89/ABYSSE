@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    cursor: url('https://i.im.ge/2023/07/29/95u5nx.C5.png') 32 32, auto; 
+    cursor: url('https://i.im.ge/2023/07/29/95u5nx.C5.png') 32 32, auto;
     /* -webkit-user-select: none;
         -webkit-touch-callout: none;
         -moz-user-select: none;
@@ -13,12 +13,23 @@ body {
     color: #fff;
 }
 
+.gallery-img {
+    width: 550px
+}
+
+.gallery-info {
+    width: 548px;
+    margin-bottom: 10px;
+}
+
+
 .column {
     float: left;
     padding: 10px;
 }
 
-.left, .right {
+.left,
+.right {
     width: 30%;
     text-align: center;
     /* background-color:#aaa; */
@@ -39,15 +50,19 @@ body {
 
 li {
     line-height: 35px;
-    background:  url('../../img/icons_and_labels/list.gif') 0 0 no-repeat;
+    background: url('../../img/icons_and_labels/list.gif') 0 0 no-repeat;
     list-style-type: none;
 }
 
-a {color: #fff;}
+a {
+    color: #fff;
+    text-decoration: none;
+}
 
 a:hover {
-    cursor: url('https://i.im.ge/2023/07/29/95F7aX.C5.png') 32 32, auto; 
+    cursor: url('https://i.im.ge/2023/07/29/95F7aX.C5.png') 32 32, auto;
 }
+
 #home:hover {
-    cursor: url('https://i.im.ge/2023/07/29/95F7aX.C5.png') 32 32, auto; 
+    cursor: url('https://i.im.ge/2023/07/29/95F7aX.C5.png') 32 32, auto;
 }
