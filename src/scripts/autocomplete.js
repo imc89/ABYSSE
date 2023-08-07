@@ -22,8 +22,14 @@ function init() {
       filterSearch = 'latin';
       autocomplete(event, 'latin');
     } else {
-      filterSearch = 'common-name';
-      autocomplete(event, 'common-name');
+      let language = window.sessionStorage.getItem('lang');
+      if (language === 'es') {
+        filterSearch = 'nombre';
+        autocomplete(event, 'nombre');
+      } else {
+        filterSearch = 'name';
+        autocomplete(event, 'name');
+      }
     }
   });
   inputElem.addEventListener("keyup", (event) => {

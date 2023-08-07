@@ -1,18 +1,21 @@
 [
     {
-        "common-name": "mixino negro",
+        "nombre": "mixino negro",
+        "name": "black hagfish",
         "latin": "paramyxine atami",
         "url": "./src/galleries/gallery_1/A_mesopelagic/a_mesopelagic01.html",
         "id": "01"
     },
     {
-        "common-name": "mixino morado",
+        "nombre": "mixino morado",
+        "name": "purple hagfish",
         "latin": "eptatretus okinoseanus",
         "url": "./src/galleries/gallery_1/A_mesopelagic/a_mesopelagic01.html",
         "id": "02"
     },
     {
-        "common-name": "tiburon solo",
+        "nombre": "tiburon gato manchado japonés",
+        "name": "japanese swellshark",
         "latin": "cephaloscyllium umbratile",
         "url": "./src/galleries/gallery_1/A_mesopelagic/a_mesopelagic01.html",
         "id": "03"
