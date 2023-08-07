@@ -10,14 +10,16 @@ async function searcher() {
         console.log(jsonData);
 
         for (var i = 0; i < jsonData.length; i++) {
-            if (jsonData[i]['common-name'] == data) {
-                window.location.href=jsonData[i]['url'];
+            if (jsonData[i]['nombre'] == data) {
+                window.location.href = jsonData[i]['url'];
+            } else if (jsonData[i]['name'] == data) {
+                window.location.href = jsonData[i]['url'];
             } else if (jsonData[i]['latin'] == data) {
-                window.location.href=jsonData[i]['url'];
+                window.location.href = jsonData[i]['url'];
             } else if (jsonData[i]['id'] == data) {
-                window.location.href=jsonData[i]['url'];
+                window.location.href = jsonData[i]['url'];
             }
-        
+
         }
     }
 }

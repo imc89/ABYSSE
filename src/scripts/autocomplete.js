@@ -3,7 +3,9 @@ var inputElem = null;
 var resultsElem = null;
 var activeIndex = 0;
 var filteredResults = [];
-var filterSearch = 'common-name';
+// Se inicializa el filtro de búsqueda con 'name'
+// Initialise the search filter with 'name'.
+var filterSearch = 'name';
 
 function init() {
 
@@ -12,25 +14,21 @@ function init() {
     .then((data) => (species = data));
 
   resultsElem = document.querySelector("#autocomplete-data");
-  inputElem = document.querySelector("#data");
+  inputElem = document.querySelector('#data');
 
   resultsElem.addEventListener("click", (event) => {
     handleResultClick(event);
   });
   inputElem.addEventListener("input", (event) => {
+    autocomplete(event,)
     if (document.getElementById('toggle').checked) {
       filterSearch = 'latin';
       autocomplete(event, 'latin');
     } else {
-      let language = window.sessionStorage.getItem('lang');
-      if (language === 'es') {
-        filterSearch = 'nombre';
-        autocomplete(event, 'nombre');
-      } else {
-        filterSearch = 'name';
-        autocomplete(event, 'name');
-      }
+      filterSearch = 'name';
+      autocomplete(event, 'name');
     }
+
   });
   inputElem.addEventListener("keyup", (event) => {
     handleResultKeyDown(event);
@@ -38,6 +36,7 @@ function init() {
 }
 
 function autocomplete(event, filterSearch) {
+  // Cambio el font size del placeholder en caso de introducir 
   // Change placeholder font size when write to see bigger letters
   if (document.querySelector('#data').value === '') {
     document.querySelector('#data').style.fontSize = "11px";
@@ -50,10 +49,49 @@ function autocomplete(event, filterSearch) {
     inputElem.value = "";
     return;
   }
-  filteredResults = species.filter((fish) => {
-    return fish[filterSearch].toLowerCase().startsWith(value.toLowerCase());
-  });
 
+  // En caso de que el filtro sea 'name' se hará una busqueda por nombres tanto en inglés como en español 
+  // dependiendo de las coincidencias en la entrada del input.
+  // In case the filter is 'name' it will search for names in both English and Spanish. 
+  // depending on the matches with the input.
+  if (filterSearch === 'name') {
+    // Primero devuelvo el array [nombre,name,latin] de los resultados que coinciden con los campos nombre y name
+    // First it returns the array [name,name,latin] of the results that match the name and name fields.
+    filteredResults = species.filter((fish) => {
+      if (fish['nombre'].toLowerCase().startsWith(value.toLowerCase())) {
+        return fish['nombre'].toLowerCase().startsWith(value.toLowerCase())
+      } else if (fish['name'].toLowerCase().startsWith(value.toLowerCase())) {
+        return fish['name'].toLowerCase().startsWith(value.toLowerCase());
+      }
+      // Mapeo el array para devolver de dentro del array el resultado que coincide.
+      // Map the array to return the matching result from inside the array.
+    }).map(fish => {
+      if (fish.nombre.startsWith(value.toLowerCase())) {
+        return fish.nombre;
+      } else if (fish.name.startsWith(value.toLowerCase())) {
+        return fish.name;
+      }
+    });
+  } else {
+    // En caso de que el filtro no sea nombre se filtrará solamente para datos en latin
+    // Primero devuelvo el array [nombre,name,latin] de los resultados que coinciden.
+    // In case the filter is not name it will filter only for latin data.
+    // First I return the array [name,name,latin] of matching results.
+    filteredResults = species.filter((fish) => {
+      if (fish['latin'].toLowerCase().startsWith(value.toLowerCase())) {
+        return fish['latin'].toLowerCase().startsWith(value.toLowerCase())
+      }
+      // Mapeo el array para devolver de dentro del array el resultado que coincide con los campos latin.
+      // Map the array to return the result that matches the latin fields.
+    }).map(fish => {
+      if (fish.latin.startsWith(value.toLowerCase())) {
+        return fish.latin;
+      }
+    });
+  }
+
+  // Mapeo a través de los resultados para pintar el listado.
+  // Map through the results to paint the list.
   resultsElem.innerHTML = filteredResults
     .map((result, index) => {
       const isSelected = index === 0;
@@ -65,7 +103,7 @@ function autocomplete(event, filterSearch) {
           role='option'
           ${isSelected ? "aria-selected='true'" : ""}
         >
-          ${result[filterSearch]}
+          ${result}
         </li>
       `;
     })
@@ -108,10 +146,17 @@ function handleResultKeyDown(event) {
       activeIndex++;
       break;
     }
+    case "Enter": {
+      // Se oculta el listado y se pierde foco del input;
+      // The list is hidden and input focus is lost;
+      hideResults();
+      inputElem.blur();
+      this.searcher();
+      break;
+    }
     default:
       selectFirstResult();
   }
-  console.log(activeIndex);
   selectResult();
 }
 function selectFirstResult() {
@@ -120,7 +165,7 @@ function selectFirstResult() {
 
 function selectResult() {
   const value = inputElem.value;
-  const autocompleteValue = filteredResults[0][filterSearch];
+  const autocompleteValue = filteredResults[activeIndex];
   const activeItem = this.getItemAt(activeIndex);
   if (activeItem) {
     activeItem.classList.add('selected');
@@ -136,7 +181,6 @@ function selectResult() {
 }
 function selectItem(node) {
   if (node) {
-    console.log(node);
     inputElem.value = node.innerText;
     hideResults();
   }
@@ -153,4 +197,11 @@ function getItemAt(index) {
 
 window.addEventListener('load', function () {
   init();
+  // Toma el input y oculta la lista cuando se pierde foco.
+  // Takes input and hides the list when focus is lost.
+  inputElem = document.querySelector('#data');
+  inputElem.addEventListener("focusout", (event) => {
+    inputElem.blur();
+    hideResults();
+  });
 });
