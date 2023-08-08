@@ -55,7 +55,7 @@
     background: linear-gradient(#333933, #222922);
     border-color: rgb(51, 66, 153);
     box-shadow: 0 0 5px rgba(0, 13, 255, 0.2), inset 0 0 5px rgba(0, 26, 255, 0.1), 0 2px 0 #000;
-    color: #efe;
+	color: rgb(85, 235, 255);
     outline: none;
 }
 

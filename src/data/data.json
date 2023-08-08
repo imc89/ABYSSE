@@ -1,20 +1,20 @@
 [
     {
-        "nombre": "mixino negro",
-        "name": "black hagfish",
+        "nombre": "mixino marrón",
+        "name": "brown hagfish",
         "latin": "paramyxine atami",
         "url": "./src/galleries/gallery_1/fishes/fishes_1.html",
         "id": "01"
     },
     {
-        "nombre": "mixino morado",
-        "name": "purple hagfish",
+        "nombre": "mixino japonés",
+        "name": "japanese hagfish",
         "latin": "eptatretus okinoseanus",
         "url": "./src/galleries/gallery_1/fishes/fishes_1.html",
         "id": "02"
     },
     {
-        "nombre": "tiburon gato manchado japonés",
+        "nombre": "tiburón gato manchado japonés",
         "name": "japanese swellshark",
         "latin": "cephaloscyllium umbratile",
         "url": "./src/galleries/gallery_1/fishes/fishes_1.html",

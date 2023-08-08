@@ -79,6 +79,100 @@
     outline: none;
 }
 
+.container-arrow-buttons {
+    padding: 10px;
+    background: #222922;
+    background: linear-gradient(#333933, #222922);
+    border-radius: 50px;
+    width: 212;
+    border: 1px solid #444;
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    transition: all 100ms;
+    -webkit-animation: glow 800ms ease-out infinite alternate;
+    animation: glow 800ms ease-out infinite alternate;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.arrow-button-right {
+    border: 1px solid #444;
+    float: right;
+    background: #222922;
+    background: linear-gradient(#999999, #222922);
+}
+
+.arrow-button-left {
+    border: 1px solid #444;
+    background: #222922;
+    background: linear-gradient(#999999, #222922);
+}
+
+.arrow-button-left:hover {
+    border: 1px solid #444;
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    transition: all 100ms;
+    -webkit-animation: glow 800ms ease-out infinite alternate;
+    animation: glow 800ms ease-out infinite alternate;
+}
+
+.arrow-button-right:hover {
+    border: 1px solid #444;
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    transition: all 100ms;
+    -webkit-animation: glow 800ms ease-out infinite alternate;
+    animation: glow 800ms ease-out infinite alternate;
+}
+
+.container-arrow-buttons button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    -webkit-animation: none;
+    animation: none;
+  }
+  
+  .container-arrow-buttons button:disabled p,
+  .container-arrow-buttons button:disabled i {
+    color: #ccc;
+    cursor: not-allowed;
+    pointer-events: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    -webkit-animation: none;
+    animation: none;
+  }
+  /* button:disabled .container-arrow-buttons button.disabled p,
+  .container-arrow-buttons button.disabled i{
+    opacity: 0.5;
+    cursor: not-allowed;
+  } */
+
+.arrow-size {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.down-arrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.up-arrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
 
 @-webkit-keyframes info-glow {
     0% {
