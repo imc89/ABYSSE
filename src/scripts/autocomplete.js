@@ -3,6 +3,7 @@ var inputElem = null;
 var resultsElem = null;
 var activeIndex = 0;
 var filteredResults = [];
+
 // Se inicializa el filtro de búsqueda con 'name'
 // Initialise the search filter with 'name'.
 var filterSearch = 'name';
@@ -19,6 +20,17 @@ function init() {
   resultsElem.addEventListener("click", (event) => {
     handleResultClick(event);
   });
+
+  // Toma el input y oculta la lista cuando se pierde foco.
+  // Takes input and hides the list when focus is lost.
+  body = document.querySelector("body > div.flex-container");
+  body.addEventListener("click", (event) => {
+    inputElem.blur();
+    hideResults();
+  });
+
+  // Dependiendo del toggle mandará un filtro y luego ejecutará una busqueda en el json.
+  // Depending on the toggle it will send a filter and then execute a search on the json.
   inputElem.addEventListener("input", (event) => {
     autocomplete(event,)
     if (document.getElementById('toggle').checked) {
@@ -54,40 +66,35 @@ function autocomplete(event, filterSearch) {
   // dependiendo de las coincidencias en la entrada del input.
   // In case the filter is 'name' it will search for names in both English and Spanish. 
   // depending on the matches with the input.
+
   if (filterSearch === 'name') {
-    // Primero devuelvo el array [nombre,name,latin] de los resultados que coinciden con los campos nombre y name
-    // First it returns the array [name,name,latin] of the results that match the name and name fields.
-    filteredResults = species.filter((fish) => {
-      if (fish['nombre'].toLowerCase().startsWith(value.toLowerCase())) {
-        return fish['nombre'].toLowerCase().startsWith(value.toLowerCase())
-      } else if (fish['name'].toLowerCase().startsWith(value.toLowerCase())) {
-        return fish['name'].toLowerCase().startsWith(value.toLowerCase());
-      }
-      // Mapeo el array para devolver de dentro del array el resultado que coincide.
-      // Map the array to return the matching result from inside the array.
-    }).map(fish => {
+
+    // Se limpia el array para evitar duplicados al hacer varias busquedas.
+    // The array is cleaned to avoid duplicates when doing multiple searches.
+    filteredResults = []
+
+    // Recorremos species y generamos un array con las coincidencias de name y nombre.
+    // Go through species and generate an array with the name and nombre matches .
+    for (let fish of species) {
       if (fish.nombre.startsWith(value.toLowerCase())) {
-        return fish.nombre;
-      } else if (fish.name.startsWith(value.toLowerCase())) {
-        return fish.name;
+        filteredResults.push(fish.nombre)
       }
-    });
+      if (fish.name.startsWith(value.toLowerCase())) {
+        filteredResults.push(fish.name)
+      }
+
+    }
   } else {
-    // En caso de que el filtro no sea nombre se filtrará solamente para datos en latin
-    // Primero devuelvo el array [nombre,name,latin] de los resultados que coinciden.
-    // In case the filter is not name it will filter only for latin data.
-    // First I return the array [name,name,latin] of matching results.
-    filteredResults = species.filter((fish) => {
-      if (fish['latin'].toLowerCase().startsWith(value.toLowerCase())) {
-        return fish['latin'].toLowerCase().startsWith(value.toLowerCase())
-      }
-      // Mapeo el array para devolver de dentro del array el resultado que coincide con los campos latin.
-      // Map the array to return the result that matches the latin fields.
-    }).map(fish => {
+    // Se limpia el array para evitar duplicados al hacer varias busquedas.
+    // The array is cleaned to avoid duplicates when doing multiple searches.
+    filteredResults = []
+    // Recorremos species y generamos un array con las coincidencias de latin.
+    // Go through species and generate an array with the latin matches .
+    for (let fish of species) {
       if (fish.latin.startsWith(value.toLowerCase())) {
-        return fish.latin;
+        filteredResults.push(fish.latin)
       }
-    });
+    };
   }
 
   // Mapeo a través de los resultados para pintar el listado.
@@ -113,9 +120,9 @@ function autocomplete(event, filterSearch) {
   }
 }
 
-function handleResultClick() {
-  if (event.target && event.target.nodeName === "LI") {
-    selectItem(event.target);
+function handleResultClick(e) {
+  if (e.target && e.target.nodeName === "LI") {
+    selectItem(e.target);
   }
 }
 function handleResultKeyDown(event) {
@@ -197,11 +204,4 @@ function getItemAt(index) {
 
 window.addEventListener('load', function () {
   init();
-  // Toma el input y oculta la lista cuando se pierde foco.
-  // Takes input and hides the list when focus is lost.
-  inputElem = document.querySelector('#data');
-  inputElem.addEventListener("focusout", (event) => {
-    inputElem.blur();
-    hideResults();
-  });
 });
