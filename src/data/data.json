@@ -1,6 +1,6 @@
 [
     {
-        "nombre": "mixino marrón",
+        "nombre": "mixino negro",
         "name": "brown hagfish",
         "latin": "paramyxine atami",
         "url": "./src/galleries/gallery_1/fishes/fishes_1.html",
@@ -19,5 +19,19 @@
         "latin": "cephaloscyllium umbratile",
         "url": "./src/galleries/gallery_1/fishes/fishes_1.html",
         "id": "03"
+    },
+    {
+        "nombre": "celancanto",
+        "name": "coelacanth",
+        "latin": "latimeria chalumnae",
+        "url": "./src/galleries/gallery_1/fishes/fishes_2.html",
+        "id": "04"
+    },
+    {
+        "nombre": "celacanto indonesio",
+        "name": "Indonesian coelacanth",
+        "latin": "latimeria menadoensis",
+        "url": "./src/galleries/gallery_1/fishes/fishes_2.html",
+        "id": "05"
     }
 ]

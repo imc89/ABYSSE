@@ -31,8 +31,8 @@ body {
     animation: info-glow 800ms ease-out infinite alternate;
     outline: none;
 }
+
 td:nth-child(2)  {
         position: relative;
         top: 20px;
-      
   }
