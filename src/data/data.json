@@ -33,5 +33,40 @@
         "latin": "latimeria menadoensis",
         "url": "./src/galleries/gallery_1/fishes/fishes_2.html",
         "id": "05"
+    },
+    {
+        "nombre": "raya de fondo",
+        "name": "bottom skate",
+        "latin": "bathyraja bergi",
+        "url": "./src/galleries/gallery_1/fishes/fishes_3.html",
+        "id": "06"
+    },
+    {
+        "nombre": "raya púrpura negra",
+        "name": "purple black skate",
+        "latin": "bathyraja caeluronigricans",
+        "url": "./src/galleries/gallery_1/fishes/fishes_3.html",
+        "id": "07"
+    },
+    {
+        "nombre": "pulpo flapjack",
+        "name": "flapjack octopus",
+        "latin": "opisthoteuthis depressa",
+        "url": "./src/galleries/gallery_1/fishes/fishes_4.html",
+        "id": "08"
+    },
+    {
+        "nombre": "pulpo dumbo",
+        "name": "dumbo octopus",
+        "latin": "opisthoteuthis albatrossi",
+        "url": "./src/galleries/gallery_1/fishes/fishes_4.html",
+        "id": "09"
+    },
+    {
+        "nombre": "pulpo de ventosas luminosas",
+        "name": "glowing sucker octopus",
+        "latin": "stauroteuthis syrtensis",
+        "url": "./src/galleries/gallery_1/fishes/fishes_4.html",
+        "id": "10"
     }
 ]

@@ -32,7 +32,7 @@ function init() {
   // Dependiendo del toggle mandará un filtro y luego ejecutará una busqueda en el json.
   // Depending on the toggle it will send a filter and then execute a search on the json.
   inputElem.addEventListener("input", (event) => {
-    autocomplete(event,)
+    autocomplete(event, filterSearch)
     if (document.getElementById('toggle').checked) {
       filterSearch = 'latin';
       autocomplete(event, 'latin');
