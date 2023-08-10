@@ -156,7 +156,7 @@
         "id": "12"
     },
     {
-        "nombre": "raya gigante",
+        "nombre": "raya de cola grande",
         "name": "large tailed skate",
         "latin": "raja macrocauda",
         "length": "1-2m",
@@ -232,5 +232,70 @@
         "IUCN": "vulnerable",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
         "id": "18"
+    },
+    {
+        "nombre": "anguila de cola corta japonesa",
+        "name": "japanese short tailed eel",
+        "latin": "coloconger japonicus",
+        "length": "30-60cm",
+        "weight": "150-200gr",
+        "depth": "300-1000m",
+        "range": "deep-water",
+        "distribucion": "Océano Pacífico nororiental",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
+        "id": "19"
+    },
+    {
+        "nombre": "anguila de pico de pato solitaria",
+        "name": "solitary duckbill eel",
+        "latin": "nettastoma solitarium",
+        "length": "45-90cm",
+        "weight": "2-4kg",
+        "depth": "400-1000m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico nororiental",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
+        "id": "20"
+    },
+    {
+        "nombre": "pez de Bombay",
+        "name": "bombay duck fish",
+        "latin": "harpadon microchir",
+        "length": "10-70cm",
+        "weight": "-",
+        "depth": "100-600m",
+        "range": "tropical",
+        "distribucion": "océano Pacífico oriental",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
+        "id": "21"
+    },
+    {
+        "nombre": "quimera plateada",
+        "name": "silver chimaera",
+        "latin": "chimaera phantasma",
+        "length": "30-60cm",
+        "weight": "1-5kg",
+        "depth": "200-1000m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico occidental, desde Japón hasta Australia",
+        "IUCN": "vulnerable",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
+        "id": "22"
+    },
+    {
+        "nombre": "",
+        "name": "",
+        "latin": "",
+        "length": "",
+        "weight": "",
+        "depth": "",
+        "range": "",
+        "distribucion": "",
+        "IUCN": "",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
+        "id": ""
     }
 ]
