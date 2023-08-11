@@ -1,10 +1,10 @@
 [
     {
-        "nombre": "mixino negro",
+        "nombre": "mixino marrón",
         "name": "brown hagfish",
         "latin": "paramyxine atami",
-        "length": "50-75cm",
-        "weight": "1-2kg",
+        "length": "10-60cm",
+        "weight": "100-180g",
         "depth": "200-1000m",
         "range": "deep-water",
         "distribucion": "Pacífico Norte, Japón, costa oeste de Norteamérica",
@@ -33,7 +33,7 @@
         "weight": "1.5-2kg",
         "depth": "20-200m",
         "range": "subtropical",
-        "distribucion": "Pacífico occidental, sur de Japón hasta norte de Australia.",
+        "distribucion": "Pacífico occidental, sur de Japón hasta norte de Australia",
         "IUCN": "amenazado",
         "url": "./src/galleries/gallery_1/fishes/fishes_1.html",
         "id": "03"
@@ -78,6 +78,19 @@
         "id": "06"
     },
     {
+        "nombre": "raya de matsubara",
+        "name": "duskypurple skate",
+        "latin": "bathyraja matsubarai",
+        "length": "70-100cm",
+        "weight": "1-3kg",
+        "depth": "200-1000m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_3.html",
+        "id": "07"
+    },
+    {
         "nombre": "raya púrpura negra",
         "name": "purple black skate",
         "latin": "bathyraja caeluronigricans",
@@ -88,7 +101,7 @@
         "distribucion": "Japón, Corea del Sur, China, costa oeste de Norteamérica",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_3.html",
-        "id": "07"
+        "id": "08"
     },
     {
         "nombre": "pulpo flapjack",
@@ -101,7 +114,7 @@
         "distribucion": "Japón, Corea, China, norte del Pacífico",
         "IUCN": "datos insuficientes",
         "url": "./src/galleries/gallery_1/fishes/fishes_4.html",
-        "id": "08"
+        "id": "09"
     },
     {
         "nombre": "pulpo dumbo",
@@ -114,7 +127,7 @@
         "distribucion": "aguas de Nueva Zelanda y Australia",
         "IUCN": "datos insuficientes",
         "url": "./src/galleries/gallery_1/fishes/fishes_4.html",
-        "id": "09"
+        "id": "10"
     },
     {
         "nombre": "pulpo de ventosas luminosas",
@@ -127,7 +140,7 @@
         "distribucion": "océano Atlántico Norte, desde Islandia hasta el norte de África",
         "IUCN": "datos insuficientes",
         "url": "./src/galleries/gallery_1/fishes/fishes_4.html",
-        "id": "10"
+        "id": "11"
     },
     {
         "nombre": "raya de notoro",
@@ -140,7 +153,7 @@
         "distribucion": "sur de Japón hasta la costa oeste de Norteamérica",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_5.html",
-        "id": "11"
+        "id": "12"
     },
     {
         "nombre": "raya gigante",
@@ -153,7 +166,7 @@
         "distribucion": "sur de Japón hasta la costa oeste de Norteamérica",
         "IUCN": "amenazado",
         "url": "./src/galleries/gallery_1/fishes/fishes_5.html",
-        "id": "12"
+        "id": "13"
     },
     {
         "nombre": "raya de cola grande",
@@ -166,7 +179,7 @@
         "distribucion": "sur de Japón hasta la costa oeste de Norteamérica",
         "IUCN": "amenazado",
         "url": "./src/galleries/gallery_1/fishes/fishes_5.html",
-        "id": "13"
+        "id": "14"
     },
     {
         "nombre": "pez roca gris plateado",
@@ -179,7 +192,7 @@
         "distribucion": "océano Pacífico oriental, desde el sur de California hasta Baja California",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
-        "id": "14"
+        "id": "15"
     },
     {
         "nombre": "pez roca de rayas verdes",
@@ -192,7 +205,7 @@
         "distribucion": "noreste del Océano Pacífico, desde el sur de California hasta Baja California, Islas Aleutianas y  Mar de Bering",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
-        "id": "15"
+        "id": "16"
     },
     {
         "nombre": "viuda de roca",
@@ -205,7 +218,7 @@
         "distribucion": "sur de California hasta Baja California",
         "IUCN": "vulnerable",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
-        "id": "16"
+        "id": "17"
     },
     {
         "nombre": "pez roca de manchas negras",
@@ -218,7 +231,7 @@
         "distribucion": "norte del Océano Pacífico, desde el sur de Alaska hasta el sur de California",
         "IUCN": "vulnerable",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
-        "id": "17"
+        "id": "18"
     },
     {
         "nombre": "pez roca nariz partida",
@@ -231,7 +244,7 @@
         "distribucion": "sur de Alaska hasta el sur de California",
         "IUCN": "vulnerable",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
-        "id": "18"
+        "id": "19"
     },
     {
         "nombre": "anguila de cola corta japonesa",
@@ -244,7 +257,7 @@
         "distribucion": "Océano Pacífico nororiental",
         "IUCN": "datos insuficientes",
         "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
-        "id": "19"
+        "id": "20"
     },
     {
         "nombre": "anguila de pico de pato solitaria",
@@ -257,20 +270,20 @@
         "distribucion": "océano Pacífico nororiental",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
-        "id": "20"
+        "id": "21"
     },
     {
         "nombre": "pez de Bombay",
         "name": "bombay duck fish",
         "latin": "harpadon microchir",
         "length": "10-70cm",
-        "weight": "-",
+        "weight": "100-200gr",
         "depth": "100-600m",
         "range": "tropical",
         "distribucion": "océano Pacífico oriental",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
-        "id": "21"
+        "id": "22"
     },
     {
         "nombre": "quimera plateada",
@@ -283,7 +296,163 @@
         "distribucion": "océano Pacífico occidental, desde Japón hasta Australia",
         "IUCN": "vulnerable",
         "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
-        "id": "22"
+        "id": "23"
+    },
+    {
+        "nombre": "pez roca de pico afilado",
+        "name": "sharpchin rockfish",
+        "latin": "sebastes zacentrus",
+        "length": "10-60cm",
+        "weight": "100-180gr",
+        "depth": "25-475m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "24"
+    },
+    {
+        "nombre": "pez roca de espina de rosa",
+        "name": "rosethorn rockfish",
+        "latin": "sebastes helvomaculatus",
+        "length": "20-40cm",
+        "weight": "100-300gr",
+        "depth": "25-500m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Oriental, desde la costa de Alaska hasta la costa de Baja California",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "25"
+    },
+    {
+        "nombre": "pez roca de harlequín",
+        "name": "harlequin rockfish",
+        "latin": "sebastes variegatus",
+        "length": "30-40cm",
+        "weight": "0.5-1.2kg",
+        "depth": "10-500m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "26"
+    },
+    {
+        "nombre": "pez roca ojo amarillo",
+        "name": "yelloweye rockfish",
+        "latin": "sebastes ruberrimus",
+        "length": "40-70cm",
+        "weight": "1-3kg",
+        "depth": "50-1000m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
+        "IUCN": "vulnerable",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "27"
+    },
+    {
+        "nombre": "pez roca boca amarilla",
+        "name": "yellowmouth rockfish",
+        "latin": "sebastes reedi",
+        "length": "15-30cm",
+        "weight": "200-800gr",
+        "depth": "10-300m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "28"
+    },
+    {
+        "nombre": "pez roca de raya roja",
+        "name": "redstripe rockfish",
+        "latin": "sebastes proriger",
+        "length": "20-60cm",
+        "weight": "0,5-1kg",
+        "depth": "10-300m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "29"
+    },
+    {
+        "nombre": "pez roca azul",
+        "name": "blue rockfish",
+        "latin": "sebastes mystinus",
+        "length": "40-60cm",
+        "weight": "2-3kg",
+        "depth": "10-500m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "30"
+    },
+    {
+        "nombre": "róbalo canario",
+        "name": "canary rockfish",
+        "latin": "sebastes pinniger",
+        "length": "40-50cm",
+        "weight": "2-4kg",
+        "depth": "10-800m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "31"
+    },
+    {
+        "nombre": "pez roca de Bocaccio",
+        "name": "bocaccio rockfish",
+        "latin": "sebastes paucispinis",
+        "length": "30-90cm",
+        "weight": "5-10kg",
+        "depth": "10-500m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
+        "IUCN": "en peligro crítico",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "32"
+    },
+    {
+        "nombre": "róbalo rojo",
+        "name": "golden redfish",
+        "latin": "sebastes marinus",
+        "length": "40-100cm",
+        "weight": "3-6kg",
+        "depth": "50-500m",
+        "range": "temperate",
+        "distribucion": "océano Atlántico Norte, desde Groenlandia hasta el norte de África",
+        "IUCN": "casi amenazado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "33"
+    },
+    {
+        "nombre": "",
+        "name": "",
+        "latin": "",
+        "length": "",
+        "weight": "",
+        "depth": "",
+        "range": "",
+        "distribucion": "",
+        "IUCN": "",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
+        "id": ""
+    },
+    {
+        "nombre": "",
+        "name": "",
+        "latin": "",
+        "length": "",
+        "weight": "",
+        "depth": "",
+        "range": "",
+        "distribucion": "",
+        "IUCN": "",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
+        "id": ""
     },
     {
         "nombre": "",

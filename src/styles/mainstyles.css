@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     cursor: url('https://raw.githubusercontent.com/imc89/ABYSSE/main/img/cursor/mainCursor_1.png') 32 32, auto;
+    height: auto;
     /* -webkit-user-select: none;
         -webkit-touch-callout: none;
         -moz-user-select: none;
@@ -131,6 +132,14 @@
     animation: glow 800ms ease-out infinite alternate;
 }
 
+.arrow-button-right:hover .arrow{
+   border-color: rgb(85, 235, 255);
+}
+.arrow-button-left:hover .arrow{
+    border-color: rgb(85, 235, 255);
+    ;
+ }
+
 .container-arrow-buttons button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
@@ -141,8 +150,11 @@
     animation: none;
   }
   
+  
+
   .container-arrow-buttons button:disabled p,
-  .container-arrow-buttons button:disabled i {
+  .container-arrow-buttons button:disabled i,
+  .container-arrow-buttons button:disabled  {
     color: #ccc;
     cursor: not-allowed;
     pointer-events: none;
@@ -151,6 +163,9 @@
     transition: none;
     -webkit-animation: none;
     animation: none;
+  }
+  .container-arrow-buttons button:disabled .arrow-button-left .arrow {
+    border-color: black;
   }
   /* button:disabled .container-arrow-buttons button.disabled p,
   .container-arrow-buttons button.disabled i{
