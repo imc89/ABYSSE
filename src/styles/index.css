@@ -54,16 +54,113 @@ body {
 }
 
 .menu .avatar {
-  background: rgba(0, 0, 0, 0.1);
-  padding: 0.8em;
+  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.2em;
   text-align: center;
 }
 
 .menu .avatar img {
-  width: 200px;
+  margin-left: -0px;
+  margin-top: 2px;
+  width: 230px;
   overflow: hidden;
-  border: 4px solid darkred;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
+  border: 1px solid #444;
+  color: #999999;
+  -webkit-transition: all 100ms;
+  -moz-transition: all 100ms;
+  transition: all 100ms;
+  -webkit-animation: glow 800ms ease-out infinite alternate;
+  animation: glow 800ms ease-out infinite alternate;
+  outline: none;
+}
+
+.menu-button {
+  width: 240px;
+  height: 90px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+.menu-button-title-1 {
+  position: absolute;
+  margin-left: 105px;
+  color: #d2b600;
+  margin-top: -60px;
+  font-size: 20px;
+  font-family: barkerville;
+  pointer-events: none;
+}
+
+.menu-button-title-2 {
+  position: absolute;
+  margin-left: 130px;
+  color: #d2b600;
+  margin-top: -60px;
+  font-size: 20px;
+  font-family: barkerville;
+  pointer-events: none;
+}
+
+.menu-button-long-title {
+  position: absolute;
+  margin-left: 70px;
+  color: #d2b600;
+  margin-top: -80px;
+  font-size: 20px;
+  font-family: barkerville;
+   pointer-events: none;
+}
+
+.menu-button-subtitle-1 {
+  position: absolute;
+  margin-left: 115px;
+  color: white;
+  margin-top: -30px;
+  font-size: 15px;
+  font-family: barkerville;
+  pointer-events: none;
+}
+
+.menu-button-subtitle-2 {
+  position: absolute;
+  margin-left: 115px;
+  color: white;
+  margin-top: -30px;
+  font-size: 15px;
+  font-family: barkerville;
+  pointer-events: none;
+}
+
+.menu-button-subtitle-3 {
+  position: absolute;
+  margin-left: 110px;
+  color: white;
+  margin-top: -30px;
+  font-size: 15px;
+  font-family: barkerville;
+  pointer-events: none;
+}
+
+.menu-button-subtitle-4 {
+  position: absolute;
+  margin-left: 105px;
+  color: white;
+  margin-top: -30px;
+  font-size: 15px;
+  font-family: barkerville;
+  pointer-events: none;
+}
+
+.menu-button-subtitle-5 {
+  position: absolute;
+  margin-left: 134px;
+  color: white;
+  margin-top: -30px;
+  font-size: 15px;
+  font-family: barkerville;
+  pointer-events: none;
 }
 
 .tools-container {
