@@ -491,7 +491,7 @@
         "distribucion": "océano Índico y el Océano Pacífico occidental",
         "IUCN": "datos insuficientes",
         "url": "./src/galleries/gallery_1/fishes/fishes_9.html",
-        "id": ""
+        "id": "38"
     },
     {
         "nombre": "cola de rata rayada",
@@ -504,7 +504,85 @@
         "distribucion": "océano Pacífico occidental",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_9.html",
-        "id": ""
+        "id": "39"
+    },
+    {
+        "nombre": "granadero de barba larga",
+        "name": "longbeard grenadier",
+        "latin": "ventrifossa longibarbata",
+        "length": "20-30cm",
+        "weight": "200gr",
+        "depth": "400-1300m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico occidental",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
+        "id": "40"
+    },
+    {
+        "nombre": "granadero de sagami",
+        "name": "sagami grenadier",
+        "latin": "ventrifossa garmani",
+        "length": "15-30cm",
+        "weight": "150gr",
+        "depth": "200-700m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico noroccidental",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
+        "id": "41"
+    },
+    {
+        "nombre": "granadero del pacífico",
+        "name": "pacific grenadier",
+        "latin": "coryphaenoides acrolepis",
+        "length": "45-65cm",
+        "weight": "0.5-3kg",
+        "depth": "300-3700m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico, desde el norte de Japón hasta el Mar de Bering siguiendo la costa estadounidense hasta el norte de México",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
+        "id": "42"
+    },
+    {
+        "nombre": "granadero de matsubara",
+        "name": "matsubara's grenadier",
+        "latin": "caelorinchus matsubarai",
+        "length": "25-35cm",
+        "weight": "170gr",
+        "depth": "300-800m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico noroccidental, desde el Mar de Japón hasta el Mar de China Oriental",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
+        "id": "43"
+    },
+    {
+        "nombre": "granadero de tokio",
+        "name": "tokyo grenadier",
+        "latin": "caelorinchus tokiensis",
+        "length": "20-55cm",
+        "weight": "150gr",
+        "depth": "300-1000m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico noroccidental, desde el Mar de Japón hasta el Mar de China Oriental",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
+        "id": "44"
+    },
+    {
+        "nombre": "granadero de kuma",
+        "name": "kuma grenadier",
+        "latin": "monomitopus kumae",
+        "length": "15-50cm",
+        "weight": "80gr",
+        "depth": "400-1200m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico noroccidental, desde el Mar de Japón hasta el Mar de China Oriental",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
+        "id": "45"
     },
     {
         "nombre": "",
@@ -516,7 +594,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_11.html",
         "id": ""
     }
 ]
