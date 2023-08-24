@@ -728,6 +728,45 @@
         "id": "55"
     },
     {
+        "nombre": "pez ataúd lápiz",
+        "name": "pencil coffinfish",
+        "latin": "chaunax tosaensis",
+        "length": "20-30cm",
+        "weight": "150gr",
+        "depth": "250-1400m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_14.html",
+        "id": "56"
+    },
+    {
+        "nombre": "pez ataúd de abe",
+        "name": "abe´s coffinfish",
+        "latin": "chaunax abei",
+        "length": "20-30cm",
+        "weight": "150gr",
+        "depth": "90-500m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_14.html",
+        "id": "57"
+    },
+    {
+        "nombre": "pez ataúd borlado",
+        "name": "tasseled coffinfish",
+        "latin": "chaunax fimbriatus",
+        "length": "15-20cm",
+        "weight": "100gr",
+        "depth": "500-1800m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico occidental, desde Japón hasta Australia",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_14.html",
+        "id": "58"
+    },
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -737,7 +776,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_14.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_15.html",
         "id": ""
     }
 ]
