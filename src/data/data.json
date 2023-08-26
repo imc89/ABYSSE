@@ -164,7 +164,7 @@
         "depth": "100-500m",
         "range": "deep-water",
         "distribucion": "sur de Japón hasta la costa oeste de Norteamérica",
-        "IUCN": "amenazado",
+        "IUCN": "casi amenazado",
         "url": "./src/galleries/gallery_1/fishes/fishes_5.html",
         "id": "13"
     },
@@ -177,7 +177,7 @@
         "depth": "100-500m",
         "range": "deep-water",
         "distribucion": "sur de Japón hasta la costa oeste de Norteamérica",
-        "IUCN": "amenazado",
+        "IUCN": "casi amenazado",
         "url": "./src/galleries/gallery_1/fishes/fishes_5.html",
         "id": "14"
     },
@@ -190,7 +190,7 @@
         "depth": "0-300m",
         "range": "subtropical",
         "distribucion": "océano Pacífico oriental, desde el sur de California hasta Baja California",
-        "IUCN": "menor preocupación",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
         "id": "15"
     },
@@ -203,7 +203,7 @@
         "depth": "0-120m",
         "range": "subtropical",
         "distribucion": "noreste del Océano Pacífico, desde el sur de California hasta Baja California, Islas Aleutianas y  Mar de Bering",
-        "IUCN": "menor preocupación",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
         "id": "16"
     },
@@ -216,7 +216,7 @@
         "depth": "10-30m",
         "range": "temperate",
         "distribucion": "sur de California hasta Baja California",
-        "IUCN": "vulnerable",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
         "id": "17"
     },
@@ -229,7 +229,7 @@
         "depth": "25-30m",
         "range": "temperate",
         "distribucion": "norte del Océano Pacífico, desde el sur de Alaska hasta el sur de California",
-        "IUCN": "vulnerable",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
         "id": "18"
     },
@@ -242,7 +242,7 @@
         "depth": "0-60m",
         "range": "temperate",
         "distribucion": "sur de Alaska hasta el sur de California",
-        "IUCN": "vulnerable",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_6.html",
         "id": "19"
     },
@@ -307,7 +307,7 @@
         "depth": "25-475m",
         "range": "deep-water",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
         "id": "24"
     },
@@ -320,7 +320,7 @@
         "depth": "25-500m",
         "range": "temperate",
         "distribucion": "océano Pacífico Oriental, desde la costa de Alaska hasta la costa de Baja California",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
         "id": "25"
     },
@@ -333,7 +333,7 @@
         "depth": "10-500m",
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
         "id": "26"
     },
@@ -346,7 +346,7 @@
         "depth": "50-1000m",
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
-        "IUCN": "vulnerable",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
         "id": "27"
     },
@@ -359,7 +359,7 @@
         "depth": "10-300m",
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
         "id": "28"
     },
@@ -372,7 +372,7 @@
         "depth": "10-300m",
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
-        "IUCN": "menor preocupación",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
         "id": "29"
     },
@@ -385,7 +385,7 @@
         "depth": "10-500m",
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
-        "IUCN": "menor preocupación",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
         "id": "30"
     },
@@ -398,7 +398,7 @@
         "depth": "10-800m",
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
-        "IUCN": "menor preocupación",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
         "id": "31"
     },
@@ -424,7 +424,7 @@
         "depth": "50-500m",
         "range": "temperate",
         "distribucion": "océano Atlántico Norte, desde Groenlandia hasta el norte de África",
-        "IUCN": "casi amenazado",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
         "id": "33"
     },
@@ -437,7 +437,7 @@
         "depth": "400-760m",
         "range": "deep-water",
         "distribucion": "noroeste del Océano Pacífico, desde Japón hasta Taiwán",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_9.html",
         "id": "34"
     },
@@ -450,7 +450,7 @@
         "depth": " 300-700m",
         "range": "temperate",
         "distribucion": "océano Pacífico occidental, desde Japón hasta Nueva Caledonia",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_9.html",
         "id": "35"
     },
@@ -463,7 +463,7 @@
         "depth": "300-700m",
         "range": "temperate",
         "distribucion": "océano Pacífico occidental, desde Japón hasta Nueva Caledonia",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_9.html",
         "id": "36"
     },
@@ -476,7 +476,7 @@
         "depth": "200-1000m",
         "range": "deep-water",
         "distribucion": "océano Pacífico occidental, desde Japón hasta Australia",
-        "IUCN": "menor preocupación",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_9.html",
         "id": "37"
     },
@@ -489,7 +489,7 @@
         "depth": "500-600m",
         "range": "deep-water",
         "distribucion": "océano Índico y el Océano Pacífico occidental",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_9.html",
         "id": "38"
     },
@@ -502,7 +502,7 @@
         "depth": "300-600m",
         "range": "deep-water",
         "distribucion": "océano Pacífico occidental",
-        "IUCN": "menor preocupación",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_9.html",
         "id": "39"
     },
@@ -515,7 +515,7 @@
         "depth": "400-1300m",
         "range": "deep-water",
         "distribucion": "océano Pacífico occidental",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
         "id": "40"
     },
@@ -528,7 +528,7 @@
         "depth": "200-700m",
         "range": "deep-water",
         "distribucion": "océano Pacífico noroccidental",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
         "id": "41"
     },
@@ -541,7 +541,7 @@
         "depth": "300-3700m",
         "range": "deep-water",
         "distribucion": "océano Pacífico, desde el norte de Japón hasta el Mar de Bering siguiendo la costa estadounidense hasta el norte de México",
-        "IUCN": "menor preocupación",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
         "id": "42"
     },
@@ -554,7 +554,7 @@
         "depth": "300-800m",
         "range": "deep-water",
         "distribucion": "océano Pacífico noroccidental, desde el Mar de Japón hasta el Mar de China Oriental",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
         "id": "43"
     },
@@ -567,7 +567,7 @@
         "depth": "300-1000m",
         "range": "temperate",
         "distribucion": "océano Pacífico noroccidental, desde el Mar de Japón hasta el Mar de China Oriental",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_10.html",
         "id": "44"
     },
@@ -593,7 +593,7 @@
         "depth": "200-1200m",
         "range": "deep-water",
         "distribucion": "desde el Océano Pacífico hasta el Océano Atlántico y el Océano Índico",
-        "IUCN": "vulnerable",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_11.html",
         "id": "46"
     },
@@ -606,7 +606,7 @@
         "depth": "200-1200m",
         "range": "temperate",
         "distribucion": "océano Pacífico occidental, desde el Mar de Japón hasta el Mar de China Oriental",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_11.html",
         "id": "47"
     },
@@ -632,7 +632,7 @@
         "depth": "100-1000m",
         "range": "deep-water",
         "distribucion": "océano Pacífico occidental, desde Japón hasta California",
-        "IUCN": "datos insuficientes",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_11.html",
         "id": "49"
     },
@@ -671,7 +671,7 @@
         "depth": "0-3000m",
         "range": "temperate",
         "distribucion": "océano Atlántico Norte, desde el Mar del Norte hasta el Ártico",
-        "IUCN": "menor preocupación",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_12.html",
         "id": "51"
     },
@@ -767,6 +767,84 @@
         "id": "58"
     },
     {
+        "nombre": "pez murciélago jaspeado",
+        "name": "marbled Seabat",
+        "latin": "halicmetus reticulatus",
+        "length": "5-10cm",
+        "weight": "2.5gr",
+        "depth": "290-500m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico occidental, desde el sur de Japón hasta Australia",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_15.html",
+        "id": "59"
+    },
+    {
+        "nombre": "pez murciélago triangular de dos espinas",
+        "name": "twospine triangular batfish",
+        "latin": "malthopsis mitrigera",
+        "length": "5-10cm",
+        "weight": "2gr",
+        "depth": "300-650m",
+        "range": "temperate",
+        "distribucion": "océano Índico y el Pacífico occidental, desde la India hasta Japón",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_15.html",
+        "id": "60"
+    },
+    {
+        "nombre": "pez murciélago triangular de jordan",
+        "name": "jordan’s triangular batfish",
+        "latin": "malthopsis jordani",
+        "length": "7-11cm",
+        "weight": "3gr",
+        "depth": "180-500m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico oriental, desde la isla de Hawái hasta las islas Galápagos",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_15.html",
+        "id": "61"
+    },
+    {
+        "nombre": "pez murciélago triangular amarillo",
+        "name": "yellow triangular batfish",
+        "latin": "malthopsis lutea",
+        "length": "5-10cm",
+        "weight": "2.5gr",
+        "depth": "100-500m",
+        "range": "temperate",
+        "distribucion": "océano Índico, desde el mar de Andaman hasta la India",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_15.html",
+        "id": "62"
+    },
+    {
+        "nombre": "pez murciélago nariz de lanza",
+        "name": "spearnose batfish",
+        "latin": "malthopsis tiarella",
+        "length": "5-10cm",
+        "weight": "2.5gr",
+        "depth": "80-450m",
+        "range": "temperate",
+        "distribucion": "noroeste del Pacífico, desde Japón hasta Taiwán",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_15.html",
+        "id": "63"
+    },
+    {
+        "nombre": "pez murciélago estrellado",
+        "name": "starry Batfish",
+        "latin": "halieutaea sp",
+        "length": "20-30cm",
+        "weight": "150gr",
+        "depth": "30-1000m",
+        "range": "deep-water",
+        "distribucion": "oceáno Pacífico, Índico y Atlántico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_15.html",
+        "id": "64"
+    },
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -776,7 +854,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_15.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
         "id": ""
     }
 ]
