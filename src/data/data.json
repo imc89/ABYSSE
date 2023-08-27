@@ -498,7 +498,7 @@
         "name": "striped rattail",
         "latin": "hymenocephalus striatissimus",
         "length": "15-20cm",
-        "weight": "100-200gr",
+        "weight": "50-200g",
         "depth": "300-600m",
         "range": "deep-water",
         "distribucion": "océano Pacífico occidental",
@@ -845,6 +845,58 @@
         "id": "64"
     },
     {
+        "nombre": "cangrejo araña gigante",
+        "name": "giant spider crab",
+        "latin": "macrocheira kaempferi",
+        "length": "3-4m",
+        "weight": "13-18kg",
+        "depth": "200-1000m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico occidental, desde Japón hasta Corea del Sur",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
+        "id": ""
+    },
+    {
+        "nombre": "rubio armado",
+        "name": "african armoured searobin",
+        "latin": "peristedion cataphractum",
+        "length": "20-40cm",
+        "weight": "100-300gr",
+        "depth": "50-800m",
+        "range": "deep-water",
+        "distribucion": "océano Atlántico oriental, Mar Mediterráneo",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
+        "id": ""
+    },
+    {
+        "nombre": "rubio armado de nariz piramidal",
+        "name": "pyramidnose armored searobin",
+        "latin": "peristedion ecuadorense",
+        "length": "15-20cm",
+        "weight": "50-200g",
+        "depth": "300m-900m",
+        "range": "deep-water",
+        "distribucion": "océano Atlántico central oeste",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
+        "id": ""
+    },
+    {
+        "nombre": "rubio esbelto",
+        "name": "slender searobin",
+        "latin": "peristedion gracile",
+        "length": "20-30cm",
+        "weight": "0.5-1kg",
+        "depth": "30-500m",
+        "range": "deep-water",
+        "distribucion": "océano Atlántico, desde el Golfo de México hasta el norte de Brasil",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
+        "id": ""
+    },
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -854,7 +906,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
         "id": ""
     }
 ]
