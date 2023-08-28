@@ -524,7 +524,7 @@
         "name": "sagami grenadier",
         "latin": "ventrifossa garmani",
         "length": "15-30cm",
-        "weight": "150gr",
+        "weight": "200-800gr",
         "depth": "200-700m",
         "range": "deep-water",
         "distribucion": "océano Pacífico noroccidental",
@@ -742,7 +742,7 @@
     },
     {
         "nombre": "pez ataúd de abe",
-        "name": "abe´s coffinfish",
+        "name": "abe's coffinfish",
         "latin": "chaunax abei",
         "length": "20-30cm",
         "weight": "150gr",
@@ -855,7 +855,7 @@
         "distribucion": "océano Pacífico occidental, desde Japón hasta Corea del Sur",
         "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
-        "id": ""
+        "id": "65"
     },
     {
         "nombre": "rubio armado",
@@ -868,7 +868,7 @@
         "distribucion": "océano Atlántico oriental, Mar Mediterráneo",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
-        "id": ""
+        "id": "66"
     },
     {
         "nombre": "rubio armado de nariz piramidal",
@@ -881,7 +881,7 @@
         "distribucion": "océano Atlántico central oeste",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
-        "id": ""
+        "id": "67"
     },
     {
         "nombre": "rubio esbelto",
@@ -894,6 +894,71 @@
         "distribucion": "océano Atlántico, desde el Golfo de México hasta el norte de Brasil",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_16.html",
+        "id": "68"
+    },
+    {
+        "nombre": "-",
+        "name": "fedorov's rosefish",
+        "latin": "helicolenus fedorovi",
+        "length": "20-30cm",
+        "weight": "0.5-1kg",
+        "depth": "350-650m",
+        "range": "deep-water",
+        "distribucion": "noroeste del oceáno Pacífico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
+        "id": "69"
+    },
+    {
+        "nombre": "-",
+        "name": "minor rosefish",
+        "latin": "helicolenus avius",
+        "length": "20-30cm",
+        "weight": "0.5-1kg",
+        "depth": "450-600m",
+        "range": "deep-water",
+        "distribucion": "noroeste del oceáno Pacífico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
+        "id": "70"
+    },
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "scalicus hians",
+        "length": "20-30cm",
+        "weight": "0.5-1kg",
+        "depth": "280-860m",
+        "range": "deep-water",
+        "distribucion": "oeste del océano Pacífico, Japón y sur de China",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
+        "id": ""
+    },
+    {
+        "nombre": "-",
+        "name": "spiny tailed searobin",
+        "latin": "scalicus serrulatus",
+        "length": "15-30cm",
+        "weight": "200-800gr",
+        "depth": "300-340",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico Indo-Occidental, sur de Japón ",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
+        "id": ""
+    },
+    {
+        "nombre": "-",
+        "name": "large armored searobin",
+        "latin": "scalicus engyceros",
+        "length": "20-30cm",
+        "weight": "150-200gr",
+        "depth": "200-660m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico occidental, desde el sur de Japón hasta el Mar del Sur de China y Hawái",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
         "id": ""
     },
     {
@@ -906,7 +971,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_18.html",
         "id": ""
     }
 ]

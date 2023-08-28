@@ -101,7 +101,9 @@ function autocomplete(event, filterSearch) {
   resultsElem.innerHTML = filteredResults
     .map((result, index) => {
       const isSelected = index === 0;
-
+      // En caso de que el dato sea desconocido, es decir, '-', no se muestra nada.
+      // In case of unknown data '-', nothing is displayed.
+      if (result !== '-') {
       return `
         <li
           id='autocomplete-result-${index}'
@@ -111,10 +113,12 @@ function autocomplete(event, filterSearch) {
         >
           ${result}
         </li>
-      `;
+      `;}
     })
     .join("");
-  if (filteredResults.length) {
+  // En caso de que el dato sea desconocido, es decir, '-', no se muestra nada.
+  // In case of unknown data '-', nothing is displayed.
+  if (filteredResults.length && !filteredResults.includes('-')) {
     resultsElem.classList.remove("hidden");
   }
 }
