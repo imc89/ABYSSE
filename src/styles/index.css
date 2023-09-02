@@ -199,6 +199,10 @@ p {
     overflow-y: auto;
   }
 
+  .avatar {
+    margin: 0 auto;
+  }
+  
   .avatar img {
     width: 200px;
     margin: 0 auto;
