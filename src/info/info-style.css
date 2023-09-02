@@ -3,6 +3,21 @@ body {
     color: #fff;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;  
+}
+
+.column {
+    flex: 25%;
+    padding: 20px;
+}
+
+h2, p {
+    color: white
+}
+
 ul {
     -webkit-column-count: 3;
     -moz-column-count: 3;
