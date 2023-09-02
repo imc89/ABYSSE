@@ -82,6 +82,26 @@ body {
   outline: none;
 }
 
+.avatar-title {
+  position: absolute;
+  top: 145px;
+  left: 2.53em;
+  font-size: 31px;
+  color: lightskyblue;
+  animation: glowLabel 1s ease-in-out infinite alternate;
+  font-family: AvenirNext-UltraLight;
+}
+
+.avatar-subtitle {
+  position: absolute;
+  top: 16.8em;
+  left: 7.9em;
+  font-size: 12px;
+  color: lightskyblue;
+  animation: glowLabel 1s ease-in-out infinite alternate;
+  font-family: AvenirNext-UltraLight;
+}
+
 .menu-button {
   width: 240px;
   height: 90px;
@@ -189,7 +209,6 @@ p {
   height: 233;
 }
 
-
 @media only screen and (max-width: 620px) {
 
   /* For mobile phones: */
@@ -202,6 +221,16 @@ p {
 
   .avatar img {
     width: 300px;
+  }
+
+  .avatar-title {
+    top: 217px;
+    left: 4.13em;
+  }
+  
+  .avatar-subtitle {
+    top: 275px;
+    left: 12.15em;
   }
 
   .tools-container {
