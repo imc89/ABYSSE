@@ -13,30 +13,48 @@ body {
 
 .flex-container {
   display: flex;
-  background-color: #f1eee9;
   height: 100%;
   font-family: sans-serif;
 }
 
-.left-column,
-.right-column {
-  display: flex;
-  flex-direction: row;
+.logo {
+  width: 225px;
+  height: 227px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+video {
+  margin: 0 auto;
+  width: 215px;
+  margin: 5px 5px;
+}
+
+ .logo video {
+  overflow: hidden;
+  border: 1px solid #444;
+  color: #999999;
+  -webkit-transition: all 100ms;
+  -moz-transition: all 100ms;
+  transition: all 100ms;
+  -webkit-animation: glow 800ms ease-out infinite alternate;
+  animation: glow 800ms ease-out infinite alternate;
+  outline: none;
 }
 
 .left-column {
   background-color: black;
   width: 25%;
+  margin-top:9px
 }
 
 
 .right-column {
-  margin-top: -200px;
   background-image: url('../../img/backgrounds/index_background.jpg');
   background-color: black;
   background-repeat: no-repeat;
   background-size: 1200px;
   width: 75%;
+  margin: -300px 0 0 5px;
 }
 
 
@@ -57,29 +75,6 @@ body {
   width: 240px;
   top: 0;
   left: 0;
-}
-
-.avatar {
-  margin-top: -2px;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 0.2em;
-  text-align: center;
-}
-
-
-.avatar img {
-  margin-left: -0px;
-  margin-top: 2px;
-  width: 230px;
-  overflow: hidden;
-  border: 1px solid #444;
-  color: #999999;
-  -webkit-transition: all 100ms;
-  -moz-transition: all 100ms;
-  transition: all 100ms;
-  -webkit-animation: glow 800ms ease-out infinite alternate;
-  animation: glow 800ms ease-out infinite alternate;
-  outline: none;
 }
 
 .menu-button {
@@ -199,12 +194,7 @@ p {
     overflow-y: auto;
   }
 
-  .avatar {
-    margin: 0 auto;
-  }
-  
-  .avatar img {
-    width: 200px;
+  .logo {
     margin: 0 auto;
   }
 
@@ -217,22 +207,6 @@ p {
     float: left;
     width: 20%;
     text-align: center;
-  }
-
-  .menu {
-    float: left;
-    width: 20%;
-    text-align: center;
-    position: relative;
-  }
-
-  .menu a {
-    background-color: #e5e5e5;
-    padding: 8px;
-    margin-top: 7px;
-    display: block;
-    width: 100%;
-    color: black;
   }
 
   .main {
@@ -338,11 +312,7 @@ p {
     pointer-events: none;
   }
 
-  .left-column {
-    width: auto;
-    display: inline-block;
-    position: relative;
-  }
+  .left-column {}
 
   .link-wrap-left {
     padding: 15px;
