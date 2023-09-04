@@ -9,7 +9,6 @@
 	border: 1px solid #000;
 	border-radius: 5px;
 	box-shadow: inset 0 0 0 1px #272727;
-	display: inline-block;
 	padding: 5px;
 	z-index: 1;
 
@@ -28,6 +27,7 @@
 }
 
 .translator {
+	margin: 0 auto;
 	background: #222;
 	background: linear-gradient(#333, #222);
 	border: 1px solid #444;
@@ -35,7 +35,6 @@
 	box-shadow: 0 2px 0 #000;
 	color: #888;
 	display: block;
-	float: left;
 	font-family: 'Cabin', helvetica, arial, sans-serif;
 	font-size: 13px;
 	font-weight: 400;
@@ -43,9 +42,9 @@
 	text-align: center;
 	height: 40px;
 	margin-top: 5px;
-	padding: 0 10px;
 	text-shadow: 0 -1px 0 #000;
 	width: 200px;
+	left: 34%
 }
 
 .ie .translator {
