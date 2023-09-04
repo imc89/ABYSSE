@@ -204,9 +204,9 @@ p {
   }
 
   .tool-center {
-    float: left;
-    width: 20%;
-    text-align: center;
+    position: relative; 
+    left: 55%;
+    transform: translateX(-50%);
   }
 
   .main {
@@ -312,8 +312,6 @@ p {
     pointer-events: none;
   }
 
-  .left-column {}
-
   .link-wrap-left {
     padding: 15px;
     text-align: center;
@@ -323,10 +321,11 @@ p {
     display: none;
   }
 
-  .tool-center,
   .menu,
   .main,
   .right {
     width: 100%;
+    position: relative; 
+    transform: translateX(35%);
   }
 }
