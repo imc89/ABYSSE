@@ -325,7 +325,5 @@ p {
   .main,
   .right {
     width: 100%;
-    position: relative; 
-    transform: translateX(35%);
   }
 }
