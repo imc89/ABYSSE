@@ -1,5 +1,5 @@
 /* iPhone Portrait */
-@media screen and (max-device-height: 768px) and (orientation:landscape) {
+@media screen and (max-width: 812px) and (orientation:landscape) {
     /* For mobile phones: */
     html,
     body {
