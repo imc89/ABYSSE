@@ -1,0 +1,49 @@
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+
+    /* For mobile phones: */
+    html,
+    body {
+        background: black;
+        height: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+    }
+
+    .logo {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tools-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .tool-center {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .right-column {
+        display: none;
+    }
+
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+        position: relative;
+        transform: translateX(35%);
+    }
+
+    .translator-container {
+        width: 300px;
+    }
+}

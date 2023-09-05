@@ -1,0 +1,41 @@
+/* iPhone Portrait */
+@media screen and (max-device-height: 480px) and (orientation:landscape) {
+
+    /* For mobile phones: */
+    html,
+    body {
+        background: black;
+        height: auto;
+        overflow-y: none;
+        overflow-x: auto;
+    }
+
+    .logo {
+        position: sticky;
+        left: 0;
+    }
+
+    .tools-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tool-center {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .right-column {
+        display: none;
+    }
+    .menu {
+        display: flex;
+    }
+
+    .translator {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    } 
+}
