@@ -11,6 +11,8 @@
     }
 
     .logo {
+        background: transparent;
+        width: 10%;
         position: sticky;
         left: 0;
     }
@@ -29,6 +31,7 @@
     .right-column {
         display: none;
     }
+
     .menu {
         display: flex;
     }
@@ -37,5 +40,5 @@
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-    } 
+    }
 }
