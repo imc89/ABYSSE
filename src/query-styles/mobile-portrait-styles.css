@@ -5,8 +5,9 @@
     html,
     body {
         background: black;
-        height: auto;
+        /* background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0) 60%, rgba(69, 117, 133, 1) 83%, rgba(178, 220, 228, 1) 100%); */
         overflow-y: auto;
+        background-attachment: fixed;
         overflow-x: hidden;
 
     }
@@ -35,15 +36,66 @@
         display: none;
     }
 
+    .left-column {
+        background: transparent;
+    }
+
     .menu,
     .main,
     .right {
+        background: transparent;
         width: 100%;
         position: relative;
         transform: translateX(35%);
     }
 
+    .menu-button-img {
+        border-radius: 50px;
+    }
+
     .translator-container {
         width: 300px;
     }
+
+    /* BUTTONS */
+    .light-button {
+        position: relative; 
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .topcorner {
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* GALLERY */
+    
+    .gallery-card {
+        display: inline-block;
+        text-align: center;
+    }
+
+
+    .gallery-info {
+        display: inherit;
+    }
+
+    .gallery-img {
+        width: 90%;
+        height: auto;
+    }
+
+    .gallery-subcard {
+        flex-direction: column;
+    }
+
+    .gallery-control {
+        display: inline-block;
+        width: 47%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /*  */
 }

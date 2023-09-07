@@ -32,7 +32,30 @@ body {
     outline: none;
 }
 
-td:nth-child(2)  {
-        position: relative;
-        top: 20px;
-  }
+.gallery-info-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gallery-info {
+    margin: 0 25px;
+    display: flex;
+}
+
+.gallery-card {
+    display: flex;
+    border-radius: 10px;
+    background: linear-gradient(#1b1b1b, #111);
+    padding: 10px;
+}
+
+.gallery-subcard {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between
+}
+
+.gallery-control {
+    margin-left: 10px;
+}
