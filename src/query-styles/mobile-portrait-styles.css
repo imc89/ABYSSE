@@ -12,6 +12,10 @@
 
     }
 
+    .flex-container {
+        height: auto;
+    }
+
     .logo {
         position: relative;
         left: 50%;
