@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../styles/searcher-style.css">
     <link rel="stylesheet" href="../styles/button-style.css">
 
+    <link rel="stylesheet" href="../query-styles/mobile-portrait-styles.css">
+
 
     <!-- <script src="../scripts/imgSwitch.js"></script> -->
     <script src="../scripts/translators.js"></script>
@@ -17,100 +19,66 @@
 </head>
 
 <body>
+    <div class="light-button top-corner">
+        <button class="glow-button change-cursor" onclick="window.location.href='../../index.html'"> HOME </button>
+    </div>
+    
     <h1 style="text-align: center;" data-i18n-key="info-title">Información</h1>
     <h3 style="text-align: center;" data-i18n-key="info-subtitle">Introducción</h3>
-    <p style="text-align: center;"><img src="../../img/icons_and_labels/line.gif" width="400" height="6"></p>
-    <p class="topcorner">
-        <!-- <a onclick="window.location.href='../../index.html'">
-            <img class="change-cursor" src="../../img/move/home_1.png" width="240" height="90" name="home"
-                onmouseout="imgSwitch('home', '../../img/move/home_1.png');"
-                onmouseover="imgSwitch('home', '../../img/move/home_2.png');" />
-        </a> -->
-        <div class="light-button topcorner">
-            <button class="glow-button change-cursor" onclick="window.location.href='../../index.html'"> HOME </button>
-        </div>
-    </p>
+    <hr>
+    
 
     <div class="center">
-        <img style="width:200px;" src="../../img/icons_and_labels/submarine.png" alt="">
+        <!-- <img style="width:200px;" src="../../img/icons_and_labels/submarine.png" alt=""> -->
+        <div class="row">
+            <div class="column infoBox">
+                <h2 data-i18n-key="info-text-title.1">UN NUEVO INTERES</h2>
+                <p data-i18n-key="info-text-body.1"> El universo y los dinosaurios siempre han estado envueltos
+                    de cierto romanticismo, y muchos
+                    libros relacionados con ellos se almacenan en los estantes de las librerías. Es un campo popular.
+                    ¿Qué ocurre con las profundidades marinas? En este momento, parece que aunque existe en este
+                    planeta,
+                    sigue siendo en gran medida desconocido y no hay muchos libros sobre este tema en las
+                    estanterías. Quiero transmitir mi apasionante interés, esta página web está abierta al público como
+                    un hobby
+                    personal. No es algo que persiga un valor material académico ni mucho menos. Por lo tanto,
+                    tenga en cuenta que puede contener inexactitudes.</p>
+            </div>
 
-        <h4 data-i18n-key="info-text-title.1">UN NUEVO INTERES</h4>
-        <p class="infoBox" data-i18n-key="info-text-body.1"> El universo y los dinosaurios siempre han estado envueltos
-            de cierto romanticismo, y muchos
-            libros relacionados con ellos se almacenan en los estantes de las librerías. Es un campo popular.
-            ¿Qué ocurre con las profundidades marinas? En este momento, parece que aunque existe en este planeta,
-            sigue siendo en gran medida desconocido y no hay muchos libros sobre este tema en las
-            estanterías. Quiero transmitir mi apasionante interés, esta página web está abierta al público como un hobby
-            personal. No es algo que persiga un valor material académico ni mucho menos. Por lo tanto,
-            tenga en cuenta que puede contener inexactitudes. </p>
+            <div class="column infoBox">
+                <h2 data-i18n-key="info-text-title.2">PROFUNDIDADES MARINAS <br>=<br> NO SÓLO OSCURIDAD</h2>
+                <p data-i18n-key="info-text-body.2">
+                    Normalmente llamamos mar profundo a las profundidades por debajo de 200m, pero eso no
+                    significa que el mar profundo sea igual a la oscuridad, ya que incluye mundos donde la luz
+                    llega vagamente. Incluso si es completamente negro para los estándares humanos, es claramente
+                    visible para los habitantes de las profundidades del mar. Sin embargo, lo cierto es que se
+                    trata de una biosfera desconocida habitada por organismos que han construido un mundo único
+                    diferente al del atún, la dorada o la sardina. Estas se clasificaron en especies
+                    bentónicas y especies nadadoras, y cada una se agrupa por profundidad. Las especies bentónicas
+                    pertenecen a la zona de transición (200-800m), la zona subtropical superior (800-1500m),
+                    Zona epitomal inferior (1500-3000m), Zona de aguas profundas (3000-6000m), en la zona
+                    ultraprofunda del fondo marino (6000m), las especies nadadoras se desplazan a las mismas
+                    profundidades en el mesopelágico, reflujo superior, reflujo inferior , aguas profundas y
+                    capas ultraprofundas Hay una capa de aguas profundas.</p>
+            </div>
 
-        <h4 data-i18n-key="info-text-title.2">PROFUNDIDADES MARINAS = NO SÓLO OSCURIDAD</h4>
-        <p class="infoBox" data-i18n-key="info-text-body.2">
-            Normalmente llamamos mar profundo a las profundidades por debajo de 200m, pero eso no
-            significa que el mar profundo sea igual a la oscuridad, ya que incluye mundos donde la luz
-            llega vagamente. Incluso si es completamente negro para los estándares humanos, es claramente
-            visible para los habitantes de las profundidades del mar. Sin embargo, lo cierto es que se
-            trata de una biosfera desconocida habitada por organismos que han construido un mundo único
-            diferente al del atún, la dorada o la sardina. Estas se clasificaron en especies
-            bentónicas y especies nadadoras, y cada una se agrupa por profundidad. Las especies bentónicas
-            pertenecen a la zona de transición (200-800m), la zona subtropical superior (800-1500m),
-            Zona epitomal inferior (1500-3000m), Zona de aguas profundas (3000-6000m), en la zona
-            ultraprofunda del fondo marino (6000m), las especies nadadoras se desplazan a las mismas
-            profundidades en el mesopelágico, reflujo superior, reflujo inferior , aguas profundas y
-            capas ultraprofundas Hay una capa de aguas profundas. </p>
-    </div>
-    <ul>
-        <li>Historia del mar I 1984 Publicado por Gihodo.</li><br>
-        <li>Enciclopedia de animales Volumen 13 Peces 1987 Pinghesha.</li><br>
-        <li>Guía de peces de colores primarios 1987 Pabellón de Beilong.</li><br>
-        <li>El gran libro de los peces de Japón 1988 Tokai University Press.</li><br>
-        <li>Medusas Acuario 1991 Kenseisha.</li><br>
-        <li>Historia Natural Antártica 1995 Animalia</li><br>
-        <li>Introducción a la oceanografía biológica 1996 Kodansha</li><br>
-        <li>El calamar puede hablar 1996 Kodansha</li><br>
-        <li>Sea Fish de Japón 1997 Mountain and Valley Society </li><br>
-        <li>Cómo funciona el océano 1997 Nippon Industry Publishing House</li><br>
-        <li>Verano de 1998 Prensa de la Universidad de Tokai</li><br>
-        <li>Deep Sea Biology Invitación 1998 Asociación de Publicaciones y Radiodifusión de Japón</li><br>
-        <li>Una guía para la biología de aguas profundas 1998 Tung Won College</li><br>
-        <li>Clasificación de peces 1999 Tungkai University Press</li><br>
-        <li>Medusa Gade Libro 2000 Hankyu Comunikessions</li><br>
-        <li>Mar profundo 2001 Cheng Wen Tang Shin Kong Club</li><br>
-        <li>Criaturas de las profundidades 2001 Firefly</li><br>
-        <li>Guía de calamares y pulpos 2002 TBS Britanika</li><br>
-        <li>100 cosas misteriosas en el mar 2003 Libros de Tokio</li><br>
-        <li>El nuevo libro de Japan's Fish 2004 Zhonggong</li><br>
-        <li>Criaturas del mar profundo Archivo 2005 Neko・Pablishing</li><br>
-        <li>Historia natural de la Antártida 2005 Tunghai University Press</li><br>
-        <li>Las maravillas de las medusas 2006 Technology Review Society</li><br>
-        <li>Ocean Map 2007 Neko・Publicidad</li><br>
-        <li>El misterio de las criaturas de las profundidades marinas 2007 Softbank Creeitib</li><br>
-        <li>Abismo del mar profundo 2008 Jin You Shan</li><br>
-        <li>Deep Sea Unbelievable 2008 Japan Miyo House</li><br>
-        <li>Deep Sea Science 2008 Publicado por Bere</li><br>
-        <li>Peces de aguas profundas 2009 Buckman Club</li><br>
-        <li>Deep Sea creatures 2009 Fantasy Winter Ship</li><br>
-        <li>Exploración de peces de aguas profundas 2010 Sala de estudio Futami</li><br>
-        <li>Las criaturas más extrañas del mar profundo 2010 Fantasy Winter Sea</li><br>
-        <li>La dimensión desconocida del mar 2010 Librería Narizando</li><br>
-        <li>Biología de aguas profundas 2011 PHP Research Institute</li><br>
-        <li>Deep Sea Fish Maha Incredible Guidebook (nueva edición revisada) 2012 Conservation Society</li><br>
-        <li>Deep Sea y Deep Sea Creatures 2012 Empresa Natsume</li><br>
-        <li>Encuesta "Criaturas del Mar Profundo" 2013 Formosa Society</li><br>
-        <li>Criaturas de las profundidades marinas capturadas y comprendidas 2014 Shogakukan</li>
-        <li>Volumen adicional Niki Saiens "Unbelievable Sea" 2013 Nikei Saiens</li><br>
-    </ul>
-    <!-- Difícilmente se puede ver en la vida real
-        <br>
-        <DD>Como superpotencia marítima, Japón es rico en tecnologías avanzadas de clase mundial, 
-            como sumergibles de aguas profundas y organizaciones de investigación, por lo que se puede 
-            decir que existen oportunidades relativamente buenas para obtener información. Sin embargo, 
-            todavía no es fácil ver imágenes en vivo con mis propios ojos. Por lo tanto, al crear este 
-            sitio web, me basé principalmente en libros escritos por expertos. Interpreté la descripción 
-            a mi manera, por lo que toda la responsabilidad por el contenido de esta página de inicio 
-            recae en mí, el autor. Las referencias se hicieron principalmente a enciclopedias, y gran 
-            parte de la información se complementó con Internet. -->
+            <div class="column infoBox">
+                <h2 data-i18n-key="info-text-title.3">hola mundo</h2>
+                <img style="width:200px;" src="../../img/icons_and_labels/submarine.png" alt="">
 
+                <p data-i18n-key="info-text-body.2">
+                    https://fishdb.sinica.edu.tw
+                    https://www.sealifebase.ca
+                    https://www.iucnredlist.org
+                    https://www.mindat.org
+                    https://www.gbif.org
+                    
+                    dame información contrastada, incluyendo entre los datos, nombres comunes en inglés y español, estado en el iucn y medias de pesos y longitudes de la especie Ophiura sarsii
+                    
+                 </p>
+            </div>
+
+        </div>
 </body>
 
 </html>

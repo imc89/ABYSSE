@@ -1,7 +1,7 @@
 /* iPhone Portrait */
 @media screen and (max-width: 480px) and (orientation:portrait) {
 
-    /* For mobile phones: */
+    /* INDEX  */
     html,
     body {
         background: black;
@@ -68,12 +68,14 @@
         transform: translateX(-50%);
     }
 
-    .topcorner {
+    .top-corner {
         position: relative;
         display: inline-block;
+        left: 50%;
+        transform: translateX(-50%);
     }
     
-    /* GALLERY */
+    /* CARD GALLERY */
     
     .gallery-card {
         display: inline-block;
