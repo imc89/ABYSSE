@@ -31,9 +31,9 @@
     }
 
     .tool-center {
-        position: relative;
+        /* position: relative;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%); */
     }
 
     .right-column {
@@ -59,6 +59,11 @@
 
     .translator-container {
         width: 300px;
+        margin-left: 7%;
+    }
+
+    .last-menu-button {
+        margin-bottom: 50px;
     }
 
     /* BUTTONS */
@@ -89,9 +94,10 @@
         width: 100%;
     }
 
-    ul {
+    .gallery-list {
         padding-left: 20px;
     }
+
 
     /* CARD GALLERY */
     .card {
