@@ -63,7 +63,7 @@
 
     /* BUTTONS */
     .light-button {
-        position: relative; 
+        position: relative;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -74,34 +74,52 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    
+
+    /* GALLERY */
+
+    .middle {
+        width: 100%;
+    }
+
+    .gallery-info {
+        width: 100%;
+    }
+
+    .gallery-img {
+        width: 100%;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
     /* CARD GALLERY */
-    
-    .gallery-card {
+    .card {
         display: inline-block;
         text-align: center;
     }
 
 
-    .gallery-info {
+    .card-info {
         display: inherit;
     }
 
-    .gallery-img {
+    .card-img {
         width: 90%;
         height: auto;
     }
 
-    .gallery-subcard {
+    .subcard {
         flex-direction: column;
     }
 
-    .gallery-control {
+    .card-control {
         display: inline-block;
         width: 47%;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
     }
+
     /*  */
 }
