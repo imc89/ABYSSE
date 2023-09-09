@@ -67,6 +67,7 @@
 }
 
 .glow-title {
+    text-align:center;
     font-family: 'Cabin', helvetica, arial, sans-serif;
     font-size: 13px;
     height: 40px;
