@@ -23,9 +23,9 @@
     }
 
     .tool-center {
-        position: relative;
+        /* position: relative;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%); */
     }
 
     .right-column {
