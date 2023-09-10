@@ -30,7 +30,10 @@
         margin: 10px auto;
     }
 
-
+    .tool-center {
+        width: 100%;
+    }
+    
     .right-column {
         display: none;
     }
