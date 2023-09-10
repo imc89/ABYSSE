@@ -28,11 +28,6 @@
         transform: translateX(-50%); */
     }
 
-    select {
-        text-align: center;
-    }
-
-    
     .right-column {
         display: none;
     }
