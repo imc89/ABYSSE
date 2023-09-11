@@ -30,10 +30,17 @@
         margin: 10px auto;
     }
 
-    .tool-center {
+    /* .tool-center {
         width: 100%;
-    }
+    } */
     
+    .tool-center {
+        float: left;
+        width: 20%;
+        text-align: center;
+      }
+  
+      
     .right-column {
         display: none;
     }
