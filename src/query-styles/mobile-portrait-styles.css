@@ -23,13 +23,19 @@
     }
 
     .tools-container {
-        /* position: relative;
+        position: relative;
         display: inline-block;
         width: 100%;
         text-align: center;
-        margin: 10px auto; */
+        margin: 10px auto;
     }
 
+    select, option {
+        text-align: center;
+        align-items: center;
+        align-self: center;
+    }
+    
     .tool-center {
         width: 100%;
     }
