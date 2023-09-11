@@ -1,5 +1,8 @@
 function search() {
-    searcher();
+    const searchInput = document.querySelector("#data").value;
+    if (searchInput) {
+        searcher();
+    }
 }
 
 async function searcher() {
