@@ -23,24 +23,17 @@
     }
 
     .tools-container {
-        position: relative;
+        /* position: relative;
         display: inline-block;
         width: 100%;
         text-align: center;
-        margin: 10px auto;
+        margin: 10px auto; */
     }
 
-    /* .tool-center {
-        width: 100%;
-    } */
-    
     .tool-center {
-        float: left;
-        width: 20%;
-        text-align: center;
-      }
-  
-      
+        width: 100%;
+    }
+    
     .right-column {
         display: none;
     }
