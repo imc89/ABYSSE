@@ -8,9 +8,7 @@
         /* background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0) 60%, rgba(69, 117, 133, 1) 83%, rgba(178, 220, 228, 1) 100%); */
         scroll-behavior: smooth;
         background-attachment: fixed;
-        overflow-y: auto;
-        overflow-x: hidden;
-        padding-bottom: 15px;
+        overflow-y: visible;
     }
 
     .flex-container {
