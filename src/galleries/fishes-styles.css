@@ -18,7 +18,7 @@ body {
     font-family: 'Cabin', helvetica, arial, sans-serif;
     font-size: 13px;
     margin-top: 5px;
-    margin: auto;
+    margin-bottom: auto;
     padding: 10px;
     width: 525px;
     background: linear-gradient(#333, #222);
