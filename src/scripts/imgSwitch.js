@@ -1,8 +1,7 @@
-
-function imgSwitch(imgName, imgSrc) {
-  if (document.images) {
-    var img = document.images[imgName];
-    if (img) img.src = imgSrc;
-  }
+function insideImg(element) {
+  element.setAttribute('src', './img/menu/tabi2.png');
 }
 
+function outsideImg(element) {
+  element.setAttribute('src', './img/menu/tabi1.png');
+}
