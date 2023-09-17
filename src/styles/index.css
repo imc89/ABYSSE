@@ -71,6 +71,7 @@ video {
 }
 
 .menu {
+  margin-top: -5px;
   background: black;
   width: 240px;
   top: 0;

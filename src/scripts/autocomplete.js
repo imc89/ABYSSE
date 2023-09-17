@@ -118,7 +118,9 @@ function autocomplete(event, filterSearch) {
     .join("");
   // En caso de que el dato sea desconocido, es decir, '-', no se muestra nada.
   // In case of unknown data '-', nothing is displayed.
-  if (filteredResults.length && !filteredResults.includes('-')) {
+  if (!filteredResults.length || filteredResults === [] || filteredResults.includes('-')) {
+    resultsElem.classList.add("hidden");
+  } else {
     resultsElem.classList.remove("hidden");
   }
 }
