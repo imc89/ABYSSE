@@ -3,6 +3,10 @@ body {
     color: #fff;
 }
 
+.names-list {
+    margin-left: 15px;
+}
+
 .light-img {
     background: #111;
     background: linear-gradient(#1b1b1b, #111);

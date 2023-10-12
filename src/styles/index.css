@@ -23,13 +23,13 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 
-video {
+#logo-img {
   margin: 0 auto;
   width: 215px;
   margin: 5px 5px;
 }
 
- .logo video {
+ .logo #logo-img {
   overflow: hidden;
   border: 1px solid #444;
   color: #999999;
