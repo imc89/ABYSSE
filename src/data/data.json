@@ -1040,6 +1040,71 @@
         "id": "79"
     },
     {
+        "nombre": "draco rinoceronte",
+        "name": "unicorn icefish",
+        "latin": "channichthys rhinoceratus",
+        "length": "40-60cm",
+        "weight": "250-500gr",
+        "depth": "100-750m",
+        "range": "polar",
+        "distribucion": "oceáno Antártico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_20.html",
+        "id": "80"
+    },
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "chionodraco hamatus",
+        "length": "35-50cm",
+        "weight": "250-650gr",
+        "depth": "4-600m",
+        "range": "polar",
+        "distribucion": "oceáno Antártico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_20.html",
+        "id": "81"
+    },
+    {
+        "nombre": "draco ocelado",
+        "name": "ocellated icefish",
+        "latin": "chionodraco rastrospinosus",
+        "length": "30-50cm",
+        "weight": "250-500gr",
+        "depth": "200-1000m",
+        "range": "polar",
+        "distribucion": "oceáno Antártico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_20.html",
+        "id": "82"
+    },
+    {
+        "nombre": "draco rayado de jonás",
+        "name": "jonah's icefish",
+        "latin": "neopagetopsis ionah",
+        "length": "40-60cm",
+        "weight": "250-1kg",
+        "depth": "20-900m",
+        "range": "polar",
+        "distribucion": "oceáno Antártico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_20.html",
+        "id": "83"
+    },
+    {
+        "nombre": "draco rayado",
+        "name": "mackerel icefish",
+        "latin": "champsocephalus gunnari",
+        "length": "20-70cm",
+        "weight": "500-2kg",
+        "depth": "30-700m",
+        "range": "polar",
+        "distribucion": "oceáno Antártico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_20.html",
+        "id": "84"
+    },
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -1049,7 +1114,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_20.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_21.html",
         "id": ""
     }
 ]
