@@ -933,7 +933,7 @@
         "distribucion": "oeste del océano Pacífico, Japón y sur de China",
         "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
-        "id": ""
+        "id": "71"
     },
     {
         "nombre": "-",
@@ -943,10 +943,10 @@
         "weight": "200-800gr",
         "depth": "300-340",
         "range": "deep-water",
-        "distribucion": "océano Pacífico Indo-Occidental, sur de Japón ",
+        "distribucion": "océano Pacífico Indo-Occidental, sur de Japón",
         "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
-        "id": ""
+        "id": "72"
     },
     {
         "nombre": "-",
@@ -959,7 +959,85 @@
         "distribucion": "océano Pacífico occidental, desde el sur de Japón hasta el Mar del Sur de China y Hawái",
         "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_17.html",
-        "id": ""
+        "id": "73"
+    },
+    {
+        "nombre": "brótula de barbas",
+        "name": "bearded brotula",
+        "latin": "brotula barbata",
+        "length": "50-100cm",
+        "weight": "2-5kg",
+        "depth": "1-650m",
+        "range": "subtropical",
+        "distribucion": "desde el Golfo de México hasta el Mar Mediterráneo",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_18.html",
+        "id": "74"
+    },
+    {
+        "nombre": "gadimorena patagónica",
+        "name": "patagonian moray cod",
+        "latin": "muraenolepis orangiensis",
+        "length": "20-30cm",
+        "weight": "0,5-1kg",
+        "depth": "135-860m",
+        "range": "temperate",
+        "distribucion": "océano Atlántico Sur",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_18.html",
+        "id": "75"
+    },
+    {
+        "nombre": "congrio austral",
+        "name": "hairy conger",
+        "latin": "pseudoxenomystax albescens",
+        "length": "60-100cm",
+        "weight": "2-4.5kg",
+        "depth": "270-1700,",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico oriental",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_18.html",
+        "id": "76"
+    },
+    {
+        "nombre": "austrobacalao esmeralda",
+        "name": "emerald rockcod",
+        "latin": "trematomus bernacchii",
+        "length": "20-35cm",
+        "weight": "0.5-1.5kg",
+        "depth": "0-700m",
+        "range": "polar",
+        "distribucion": "oceáno Antártico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_19.html",
+        "id": "77"
+    },
+    {
+        "nombre": "-",
+        "name": "shorthead eelpout",
+        "latin": "pachycara brachycephalum",
+        "length": "15-25cm",
+        "weight": "200-400gr",
+        "depth": "200-1800m",
+        "range": "deep-water",
+        "distribucion": "océano Antártico, desde el arco de Scotia hasta las islas Heard y McDonald",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_19.html",
+        "id": "78"
+    },
+    {
+        "nombre": "trama jorobada",
+        "name": "humped rockcod",
+        "latin": "gobionotothen gibberifrons",
+        "length": "25-55cm",
+        "weight": "1.5-3 kg",
+        "depth": "6-429m",
+        "range": "polar",
+        "distribucion": "océano Austral, desde el arco de Scotia hasta las islas Heard y McDonald, y en el Atlántico Sur, cerca de las islas Shetland del Sur, Sandwich del Sur y Orkney del Sur",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_19.html",
+        "id": "79"
     },
     {
         "nombre": "",
@@ -971,7 +1049,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_18.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_20.html",
         "id": ""
     }
 ]
