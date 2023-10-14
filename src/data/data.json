@@ -1105,16 +1105,68 @@
         "id": "84"
     },
     {
-        "nombre": "",
-        "name": "",
-        "latin": "",
-        "length": "",
-        "weight": "",
-        "depth": "",
-        "range": "",
-        "distribucion": "",
-        "IUCN": "",
+        "nombre": "-",
+        "name": "marukawa's sculpin",
+        "latin": "marukawichthys ambulator",
+        "length": "15-20cm",
+        "weight": "100-120gr",
+        "depth": "150-270m",
+        "range": "deep-water",
+        "distribucion": "noreste del oceáno Pacífico",
+        "IUCN": "no evaluado",
         "url": "./src/galleries/gallery_1/fishes/fishes_21.html",
-        "id": ""
+        "id": "85"
+    },
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "ereunias grallator",
+        "length": "20-30cm",
+        "weight": "200gr",
+        "depth": "500m",
+        "range": "deep-water",
+        "distribucion": "noroeste del oceáno Pacífico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_21.html",
+        "id": "86"
+    },
+    {
+        "nombre": "pez baboso barrado",
+        "name": "barred snailfish",
+        "latin": "crystallichthys matsushimae",
+        "length": "20-40cm",
+        "weight": "50-70gr",
+        "depth": "200-700m",
+        "range": "deep-water",
+        "distribucion": "sur del oceáno Pacífico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_21.html",
+        "id": "87"
+    },
+    {
+        "nombre": "pez baboso rosado",
+        "name": "salmon snailfish",
+        "latin": "careproctus rastrinus",
+        "length": "15-50cm",
+        "weight": "30-45gr",
+        "depth": "55-920m",
+        "range": "deep-water",
+        "distribucion": "oceáno Pacífico Nororiental",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_21.html",
+        "id": "88"
+    },
+    {
+        "nombre": "pez baboso de cuerpo rugoso",
+        "name": "rough body snailfish",
+        "latin": "careproctus trachysoma",
+        "length": "15-30cm",
+        "weight": "30-45gr",
+        "depth": "140-800m",
+        "range": "deep-water",
+        "distribucion": "norte del oceáno Pacífico",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_21.html",
+        "id": "89"
     }
 ]
