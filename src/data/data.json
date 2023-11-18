@@ -247,58 +247,6 @@
         "id": "19"
     },
     {
-        "nombre": "anguila de cola corta japonesa",
-        "name": "japanese short tailed eel",
-        "latin": "coloconger japonicus",
-        "length": "30-60cm",
-        "weight": "150-200gr",
-        "depth": "300-1000m",
-        "range": "deep-water",
-        "distribucion": "Océano Pacífico nororiental",
-        "IUCN": "datos insuficientes",
-        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
-        "id": "20"
-    },
-    {
-        "nombre": "anguila de pico de pato solitaria",
-        "name": "solitary duckbill eel",
-        "latin": "nettastoma solitarium",
-        "length": "45-90cm",
-        "weight": "2-4kg",
-        "depth": "400-1000m",
-        "range": "deep-water",
-        "distribucion": "océano Pacífico nororiental",
-        "IUCN": "menor preocupación",
-        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
-        "id": "21"
-    },
-    {
-        "nombre": "pez de Bombay",
-        "name": "bombay duck fish",
-        "latin": "harpadon microchir",
-        "length": "10-70cm",
-        "weight": "100-200gr",
-        "depth": "100-600m",
-        "range": "tropical",
-        "distribucion": "océano Pacífico oriental",
-        "IUCN": "menor preocupación",
-        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
-        "id": "22"
-    },
-    {
-        "nombre": "quimera plateada",
-        "name": "silver chimaera",
-        "latin": "chimaera phantasma",
-        "length": "30-60cm",
-        "weight": "1-5kg",
-        "depth": "200-1000m",
-        "range": "deep-water",
-        "distribucion": "océano Pacífico occidental, desde Japón hasta Australia",
-        "IUCN": "vulnerable",
-        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
-        "id": "23"
-    },
-    {
         "nombre": "pez roca de pico afilado",
         "name": "sharpchin rockfish",
         "latin": "sebastes zacentrus",
@@ -308,7 +256,7 @@
         "range": "deep-water",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
         "IUCN": "no evaluado",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "24"
     },
     {
@@ -321,7 +269,7 @@
         "range": "temperate",
         "distribucion": "océano Pacífico Oriental, desde la costa de Alaska hasta la costa de Baja California",
         "IUCN": "no evaluado",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "25"
     },
     {
@@ -334,7 +282,7 @@
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
         "IUCN": "no evaluado",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "26"
     },
     {
@@ -347,7 +295,7 @@
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
         "IUCN": "no evaluado",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "27"
     },
     {
@@ -360,7 +308,7 @@
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
         "IUCN": "no evaluado",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "28"
     },
     {
@@ -373,7 +321,7 @@
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
         "IUCN": "no evaluado",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "29"
     },
     {
@@ -386,7 +334,7 @@
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
         "IUCN": "no evaluado",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "30"
     },
     {
@@ -399,11 +347,11 @@
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
         "IUCN": "no evaluado",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "31"
     },
     {
-        "nombre": "pez roca de Bocaccio",
+        "nombre": "pez roca de bocaccio",
         "name": "bocaccio rockfish",
         "latin": "sebastes paucispinis",
         "length": "30-90cm",
@@ -412,7 +360,7 @@
         "range": "temperate",
         "distribucion": "océano Pacífico Norte, desde el Mar de Bering hasta el Golfo de California",
         "IUCN": "en peligro crítico",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "32"
     },
     {
@@ -425,8 +373,60 @@
         "range": "temperate",
         "distribucion": "océano Atlántico Norte, desde Groenlandia hasta el norte de África",
         "IUCN": "no evaluado",
-        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_7.html",
         "id": "33"
+    },
+    {
+        "nombre": "anguila de cola corta japonesa",
+        "name": "japanese short tailed eel",
+        "latin": "coloconger japonicus",
+        "length": "30-60cm",
+        "weight": "150-200gr",
+        "depth": "300-1000m",
+        "range": "deep-water",
+        "distribucion": "Océano Pacífico nororiental",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "20"
+    },
+    {
+        "nombre": "anguila de pico de pato solitaria",
+        "name": "solitary duckbill eel",
+        "latin": "nettastoma solitarium",
+        "length": "45-90cm",
+        "weight": "2-4kg",
+        "depth": "400-1000m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico nororiental",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "21"
+    },
+    {
+        "nombre": "pez de bombay",
+        "name": "bombay duck fish",
+        "latin": "harpadon microchir",
+        "length": "10-70cm",
+        "weight": "100-200gr",
+        "depth": "100-600m",
+        "range": "tropical",
+        "distribucion": "océano Pacífico oriental",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "22"
+    },
+    {
+        "nombre": "quimera plateada",
+        "name": "silver chimaera",
+        "latin": "chimaera phantasma",
+        "length": "30-60cm",
+        "weight": "1-5kg",
+        "depth": "200-1000m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico occidental, desde Japón hasta Australia",
+        "IUCN": "vulnerable",
+        "url": "./src/galleries/gallery_1/fishes/fishes_8.html",
+        "id": "23"
     },
     {
         "nombre": "bacalao de jordan",
