@@ -41,13 +41,18 @@
         display: flex;
     }
 
-    .menu-button-img {
-        border-radius: 50px;
-    }
-
     .translator {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    /* MENU RESPONSIVE STYLE */
+    .desktopMenu {
+        display: block;
+    }
+
+    .mobileMenu {
+        display: none;
     }
 }

@@ -44,9 +44,15 @@ body {
 .left-column {
   background-color: black;
   width: 25%;
-  margin-top:9px
+  margin-top:9px;
+  margin-left:-15px;
 }
 
+.menu-button-img {
+  width: 220px;
+  height: 95px;
+  margin-left: -20px;
+}
 
 .right-column {
   background-image: url('../../img/backgrounds/index_background.jpg');
@@ -86,82 +92,13 @@ body {
   position: relative;
 }
 
-.menu-button-title-1 {
+.menu-button-title {
   position: absolute;
-  margin-left: 105px;
-  color: #d2b600;
-  margin-top: -60px;
-  font-size: 20px;
-  font-family: barkerville;
-  pointer-events: none;
-}
-
-.menu-button-title-2 {
-  position: absolute;
-  margin-left: 130px;
-  color: #d2b600;
-  margin-top: -60px;
-  font-size: 20px;
-  font-family: barkerville;
-  pointer-events: none;
-}
-
-.menu-button-long-title {
-  position: absolute;
-  margin-left: 70px;
-  color: #d2b600;
-  margin-top: -80px;
-  font-size: 20px;
-  font-family: barkerville;
-  pointer-events: none;
-}
-
-.menu-button-subtitle-1 {
-  position: absolute;
-  margin-left: 115px;
-  color: white;
-  margin-top: -30px;
-  font-size: 15px;
-  font-family: barkerville;
-  pointer-events: none;
-}
-
-.menu-button-subtitle-2 {
-  position: absolute;
-  margin-left: 115px;
-  color: white;
-  margin-top: -30px;
-  font-size: 15px;
-  font-family: barkerville;
-  pointer-events: none;
-}
-
-.menu-button-subtitle-3 {
-  position: absolute;
-  margin-left: 110px;
-  color: white;
-  margin-top: -30px;
-  font-size: 15px;
-  font-family: barkerville;
-  pointer-events: none;
-}
-
-.menu-button-subtitle-4 {
-  position: absolute;
-  margin-left: 105px;
-  color: white;
-  margin-top: -30px;
-  font-size: 15px;
-  font-family: barkerville;
-  pointer-events: none;
-}
-
-.menu-button-subtitle-5 {
-  position: absolute;
-  margin-left: 134px;
-  color: white;
-  margin-top: -30px;
-  font-size: 15px;
+  left: 40%; 
+  color: #d2b600;  
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
   font-family: barkerville;
   pointer-events: none;
 }
@@ -183,4 +120,78 @@ p {
   margin-top: 1.16em;
   width: 321;
   height: 233;
+}
+
+/*  */
+nav {
+	position: relative;
+	/* margin: 50px; */
+	width: 360px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+  /* Sub Menu */
+}
+nav ul li a {
+	display: block;
+	padding: 10px 15px;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-ms-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
+	transition: 0.2s linear;
+}
+nav ul li a:hover {
+	background: #1d4f71;
+	color: #fff;
+}
+nav ul li a .fa {
+	width: 16px;
+	text-align: center;
+	margin-right: 5px;
+	float:right;
+}
+nav ul ul {
+	background: rgba(0, 0, 0, 0.2);
+}
+nav ul li ul li a {
+	
+	border-left: 4px solid transparent;
+	padding: 10px 20px;
+}
+nav ul li ul li a:hover {
+
+	border-left: 4px solid #3498db;
+}
+
+/*  */
+/* .mobileMenu {
+  display: none;
+} */
+
+.slider {
+	overflow-y: scroll;
+  max-height: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.slider.closed {
+  max-height: 150px; /* approximate max height */
+	transition-property: all;
+	transition-duration: 1s;
+
+  position: sticky;
+  width: 225px;
+  margin-left: -23px;
+}
+
+.sliderPadding {
+  padding: 0px 22px;
 }

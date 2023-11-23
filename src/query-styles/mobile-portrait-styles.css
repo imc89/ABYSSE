@@ -29,22 +29,25 @@
         margin: 10px auto;
     }
 
-    select, option {
+    select,
+    option {
         text-align: center;
         align-items: center;
         align-self: center;
     }
-    
+
     .tool-center {
         width: 100%;
     }
-    
+
     .right-column {
         display: none;
     }
 
     .left-column {
         background: transparent;
+        margin: 0 auto;
+        margin-top: 20px;
     }
 
     .menu,
@@ -56,13 +59,10 @@
         transform: translateX(35%);
     }
 
-    .menu-button-img {
-        border-radius: 50px;
-    }
 
     .translator-container {
         width: 300px;
-        margin-left: 7%;
+        margin: 0 auto;
     }
 
     .last-menu-button {
@@ -130,5 +130,12 @@
         transform: translateX(-50%);
     }
 
-    /*  */
+    /* MENU RESPONSIVE STYLE */
+    .desktopMenu {
+        display: none;
+    }
+
+    .mobileMenu {
+        display: block;
+    }
 }

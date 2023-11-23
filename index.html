@@ -4,7 +4,7 @@
 <html lang="en">
 
 <meta charset="UTF-8">
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
 
 <meta name="apple-mobile-web-app-title" content="ABYSSE">
 <meta name="application-name" content="ABYSSE">
@@ -49,7 +49,7 @@
 
     <div class="link-wrap-left">
         <div class="logo">
-                <img id="logo-img" src="./img/icons_and_labels/video.gif">
+            <img id="logo-img" src="./img/icons_and_labels/video.gif">
         </div>
     </div>
 
@@ -80,8 +80,8 @@
         </div>
         <div class="translator-container tool-center">
             <select data-i18n-switcher="" class="translator change-cursor" style="text-align-last:center; ">
-            <option value="es">Español</option>
-            <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="en">English</option>
             </select>
         </div>
     </div>
@@ -91,7 +91,34 @@
             <div class="link-wrap-left">
                 <nav class="menu" tabindex="0">
                     <div class="menu">
-                        <button class="menu-button" onclick="window.location.href='./src/info/info.html'">
+                        <ul style="width: 225px;" class="mobileMenu">
+                            <li class="sliderPadding">
+                                <p data-i18n-key="index-menu-button-1" class="menu-button-title">Información</p>                            
+                                <img class="change-cursor menu-button-img" src="./img/menu/tabi1.png" name="menu_option_1" 
+                                onmouseover="insideImg(this);" onmouseout="outsideImg(this);"/>
+                            </li>
+                            <li class="sliderp sliderPadding" styl="padding-bottom:3px" onclick="subMenu()">
+                                <p data-i18n-key="index-menu-button-2" class="menu-button-title">Galería</p>
+                                <img class="change-cursor menu-button-img" src="./img/menu/tabi1.png" name="menu_option_1" 
+                                onmouseover="insideImg(this);" onmouseout="outsideImg(this);"/>
+                                
+                                <ul class="slider" id="slider">
+                                    <li>ZONA MESOPELÁGICA</li>
+                                    <li>ZONA BATIPELÁGICA ALTA</li>
+                                    <li>ZONA BATIPELÁGICA BAJA</li>
+                                    <li>ZONA ABISAL</li>
+                                    <li>ZONA HADAL</li>
+                                </ul>
+                            </li>
+                            <li class="sliderPadding">
+                                <p data-i18n-key="index-menu-button-3" class="menu-button-title">Índice</p>
+                                <img class="change-cursor menu-button-img" src="./img/menu/tabi1.png" name="menu_option_1" 
+                                onmouseover="insideImg(this);" onmouseout="outsideImg(this);"/>
+                            </li>
+                        </ul>
+
+                        <!-- <div class="desktopMenu">
+                            <button class="menu-button" onclick="window.location.href='./src/info/info.html'">
                             <img class="change-cursor menu-button-img" src="./img/menu/tabi1.png" width="220"
                                 height="70" name="menu_option_1" 
                                 onmouseover="insideImg(this);" onmouseout="outsideImg(this);"/>
@@ -135,6 +162,7 @@
                                 Index</p>
                             <p data-i18n-key="index-menu-button-5.2" class="menu-button-subtitle-5">Índice</p>
                         </button>
+                        </div> -->
                     </div>
                 </nav>
             </div>
@@ -163,3 +191,14 @@
 </body>
 
 </html>
+
+
+<script>
+    function subMenu() {
+        document.getElementById('slider').classList.toggle('closed');
+        if (document.querySelector("#slider").classList.contains('closed')) {
+            document.querySelector(".sliderp").style.paddingBottom = '0px'
+        } 
+    }
+
+</script>
