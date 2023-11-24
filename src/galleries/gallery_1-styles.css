@@ -24,7 +24,7 @@ body {
 
 .light-title {
     position: relative;
-    left: 55%;
+    left: 50%;
     transform: translateX(-50%);
 }
 
@@ -68,6 +68,18 @@ a:hover {
     cursor: url('https://i.im.ge/2023/07/29/95F7aX.C5.png') 32 32, auto;
 }
 
+.glow-img-container .glow-img {
+    overflow: hidden;
+    border: 1px solid #444;
+    color: #999999;
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    transition: all 100ms;
+    -webkit-animation: glow 800ms ease-out infinite alternate;
+    animation: glow 800ms ease-out infinite alternate;
+    outline: none;
+  }
+
 @media only screen and (max-width: 620px) {
 
     /* For mobile phones: */
@@ -75,6 +87,13 @@ a:hover {
         margin-right: auto;
     }
 
+    .light-title {
+        position: relative;
+        left: 50%;
+        margin: 0 auto;
+        transform: translateX(-50%);
+    }
+    
    
 
 } 
