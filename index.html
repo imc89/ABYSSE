@@ -24,6 +24,7 @@
 
 
 <link rel="stylesheet" href="./src/styles/index.css">
+<link rel="stylesheet" href="./src/styles/menu-styles.css">
 <link rel="stylesheet" href="./src/styles/mainstyles.css">
 <link rel="stylesheet" href="./src/styles/translator-styles.css">
 <link rel="stylesheet" href="./src/styles/toggle-style.css">
@@ -33,7 +34,7 @@
 <link rel="stylesheet" href="./src/query-styles/mobile-landscape-styles.css">
 <link rel="stylesheet" href="./src/query-styles/mobile-portrait-styles.css">
 
-
+<script src="./src/scripts/menu.js"></script>
 <script src="./src/scripts/imgSwitch.js"></script>
 <script src="./src/scripts/searcher.js"></script>
 <script src="./src/scripts/toggleSwitch.js"></script>
@@ -103,11 +104,11 @@
                                 onmouseover="insideImg(this);" onmouseout="outsideImg(this);"/>
                                 
                                 <ul class="slider" id="slider">
-                                    <li onclick="window.location.href='./src/galleries/gallery_1/gallery.html'">MESOPELÁGICA</li>
-                                    <li>BATIPELÁGICA ALTA</li>
-                                    <li>BATIPELÁGICA BAJA</li>
-                                    <li>ABISAL</li>
-                                    <li>HADAL</li>
+                                    <li class="menu-item" onclick="window.location.href='./src/galleries/gallery_1/gallery.html'">MESOPELÁGICA</li>
+                                    <li class="menu-item" >BATIPELÁGICA ALTA</li>
+                                    <li class="menu-item" >BATIPELÁGICA BAJA</li>
+                                    <li class="menu-item" >ABISAL</li>
+                                    <li class="menu-item" >HADAL</li>
                                 </ul>
                             </li>
                             <li class="sliderPadding">
@@ -191,17 +192,3 @@
 </body>
 
 </html>
-
-
-<script>
-    function subMenu() {
-        document.getElementById('slider').classList.toggle('closed');
-        if (document.querySelector("#slider").classList.contains('closed')) {
-            document.querySelector(".sliderp").style.paddingBottom = '0px'
-            document.querySelector(".left-column").style.marginBottom = "480px"
-        }  else {
-            document.querySelector(".left-column").style.marginBottom = "330px"
-        }
-    }
-
-</script>
