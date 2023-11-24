@@ -5,7 +5,8 @@ function table() {
   for (var i=1; i<24; i++) {
       const imageDiv = document.createElement('div');
       imageContainer.style.display = 'flex';
-  imageContainer.style.flexWrap = 'wrap'; // Wrap images to form rows
+      imageContainer.style.flexWrap = 'wrap'; // Wrap images to form rows
+      imageContainer.style.justifyContent = 'center';
       imageDiv.className = 'glow-img-container'; // Assign the 'glow' class to the div
       
       const imageElement = document.createElement('img');
@@ -14,7 +15,7 @@ function table() {
       imageElement.src = `../../../img/galleries/gallery_1/fishes_${i}.jpg`;
       imageElement.className = 'glow-img'
       imageElement.style.margin= "20px"
-      imageElement.style.width = '150px'
+      imageElement.style.width = '140px'
       imageElement.classList.add = "glow"
       const imageURL = `./fishes/fishes_${i}.html`;
   
