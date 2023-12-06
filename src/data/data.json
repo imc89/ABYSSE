@@ -1274,6 +1274,71 @@
         "id": "97"
     },
     {
+        "nombre": "ojiverde de ojos grandes",
+        "name": "big eyed greeneye",
+        "latin": "chlorophthalmus albatrossis",
+        "length": "13-15cm",
+        "weight": "12-16gr",
+        "depth": "300-350m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico Indo-Occidental: desde el sur de Japón hasta Filipinas",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_25.html",
+        "id": "98"
+    },
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "chlorophthalmus japonicus",
+        "length": "15-25cm",
+        "weight": "50-100gr",
+        "depth": "300-1000m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico occidental: desde el sur de Japón hasta Australia y Nueva Zelanda",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_25.html",
+        "id": "99"
+    },
+    {
+        "nombre": "ojiverde de bordes negros",
+        "name": "blackedge greeneye",
+        "latin": "chlorophthalmus nigromarginatus",
+        "length": "15-23cm",
+        "weight": "25-90gr",
+        "depth": "200-300m",
+        "range": "deep-water",
+        "distribucion": "oceáno Pacífico Indo-Occidental: Indonesia y noroeste de Australia. También desde el sur de Japón hasta el Mar de China Oriental",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_25.html",
+        "id": "100"
+    },
+    {
+        "nombre": "ojiverde jorobado",
+        "name": "humpback greeneye",
+        "latin": "chlorophthalmus acutifrons",
+        "length": "20-30cm",
+        "weight": "50-100gr",
+        "depth": "200-1000m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico occidental: desde el sur de Japón hasta Filipinas",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_25.html",
+        "id": "101"
+    },
+    {
+        "nombre": "pez pepino de hocico corto",
+        "name": "shortsnout cucumberfish",
+        "latin": "chlorophthalmus sp.",
+        "length": "10-13cm",
+        "weight": "10-20gr",
+        "depth": "190-300m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico occidental: Okinawa Trough, Filipinas, Estrecho de Malaca, sur de Indonesia, y Australia",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_25.html",
+        "id": "102"
+    },
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -1283,7 +1348,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_25.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_26.html",
         "id": ""
     }
 ]
