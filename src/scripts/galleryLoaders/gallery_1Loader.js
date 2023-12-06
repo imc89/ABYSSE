@@ -2,7 +2,7 @@ function table() {
     const imageContainer = document.createElement('div');
     document.body.appendChild(imageContainer);
   
-  for (var i=1; i<=25; i++) {
+  for (var i=1; i<=26; i++) {
       const imageDiv = document.createElement('div');
       imageContainer.style.display = 'flex';
       imageContainer.style.flexWrap = 'wrap'; // Wrap images to form rows

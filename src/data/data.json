@@ -1339,6 +1339,32 @@
         "id": "102"
     },
     {
+        "nombre": "-",
+        "name": "-",
+        "latin": "chlorophthalmus borealis",
+        "length": "12-15cm",
+        "weight": "20-30gr",
+        "depth": "240-260m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico occidental: desde el sur de Japón hasta el mar de Bering",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_26.html",
+        "id": "103"
+    },
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "chlorophthalmus pectoralis",
+        "length": "10-15cm",
+        "weight": "20-30gr",
+        "depth": "350-500m",
+        "range": "deep-water",
+        "distribucion": "noreste del océano Pacífico, Japón",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_26.html",
+        "id": "104"
+    },
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -1348,7 +1374,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_26.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_27.html",
         "id": ""
     }
 ]
