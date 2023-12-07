@@ -1,0 +1,27 @@
+document.addEventListener("keydown", function(e) {
+    const url = window.location.href;
+    let numberPage;
+    if (e.key === "ArrowDown") {
+        debugger
+        if(url.includes('fishes_')) {
+            numberPage = +window.location.href.split('fishes_')[1].replace(/[^0-9]+/g, "");
+            if(numberPage){
+                numberPage++;
+                location.href = `./fishes_${numberPage}.html`;
+            }
+        }
+    } else if (e.key === "ArrowUp") {
+        debugger
+        if(url.includes('fishes_')) {
+            numberPage = +window.location.href.split('fishes_')[1].replace(/[^0-9]+/g, "");
+            if(numberPage){
+                numberPage--;
+                if(numberPage >= 1){
+                    location.href = `./fishes_${numberPage}.html`;
+                }
+            
+            }
+        }
+    }
+
+  });
