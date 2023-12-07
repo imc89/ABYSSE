@@ -18,16 +18,17 @@ function table() {
 
       imageElement.src = `../../../img/galleries/gallery_1/fishes_${i}.jpg`;
 
-      imageElement.onerror = () => {
-        imageElement.onerror = null;
-        imageElement.src = '../../../img/icons_and_labels/default_img.png';
-      };
-
       imageElement.className = 'glow-img'
       imageElement.style.margin = "20px"
       imageElement.style.width = '140px'
       imageElement.classList.add = "glow"
-      const imageURL = `./fishes/fishes_${i}.html`;
+      let imageURL = `./fishes/fishes_${i}.html`;
+
+      imageElement.onerror = () => {
+        imageElement.onerror = null;
+        imageElement.src = '../../../img/icons_and_labels/default_img.png';
+        imageURL = '';
+      };
 
       imageElement.addEventListener('click', () => {
         window.open(imageURL, '_self');
