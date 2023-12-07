@@ -16,8 +16,13 @@ function table() {
 
       const imageElement = document.createElement('img');
 
-
       imageElement.src = `../../../img/galleries/gallery_1/fishes_${i}.jpg`;
+
+      imageElement.onerror = () => {
+        imageElement.onerror = null;
+        imageElement.src = '../../../img/icons_and_labels/default_img.png';
+      };
+
       imageElement.className = 'glow-img'
       imageElement.style.margin = "20px"
       imageElement.style.width = '140px'
