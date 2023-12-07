@@ -1242,7 +1242,7 @@
         "weight": "200gr",
         "depth": "10-100m",
         "range": "temperate",
-        "distribucion": "oceáno Pacífico, se encuentra desde las costas de Japón y Corea hasta las costas de Australia y Nueva Zelanda. En el Índico, se encuentra desde las costas de África Oriental hasta las costas de Australia Occidental",
+        "distribucion": "océano Pacífico, se encuentra desde las costas de Japón y Corea hasta las costas de Australia y Nueva Zelanda. En el Índico, se encuentra desde las costas de África Oriental hasta las costas de Australia Occidental",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_23.html",
         "id": "95"
@@ -1307,7 +1307,7 @@
         "weight": "25-90gr",
         "depth": "200-300m",
         "range": "deep-water",
-        "distribucion": "oceáno Pacífico Indo-Occidental: Indonesia y noroeste de Australia. También desde el sur de Japón hasta el Mar de China Oriental",
+        "distribucion": "océano Pacífico Indo-Occidental: Indonesia y noroeste de Australia. También desde el sur de Japón hasta el Mar de China Oriental",
         "IUCN": "menor preocupación",
         "url": "./src/galleries/gallery_1/fishes/fishes_25.html",
         "id": "100"
@@ -1365,6 +1365,58 @@
         "id": "104"
     },
     {
+        "nombre": "-",
+        "name": "thory sculpin",
+        "latin": "icelus cataphractus",
+        "length": "20-30cm",
+        "weight": "50-100gr",
+        "depth": "60-455m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Noroeste: norte de Japón hasta el Mar de Okhotsk",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_27.html",
+        "id": "105"
+    },
+    {
+        "nombre": "pez murciélago estrellado de escamas rugosas",
+        "name": "starry roughscale batfish",
+        "latin": "dibranchus stellulatus",
+        "length": "10-30cm",
+        "weight": "50-100gr",
+        "depth": "280-550m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico Indo-Occidental: muy extendido, frente a Sudáfrica, Nueva Caledonia, Taiwán y Japón, Hawaii",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_27.html",
+        "id": "106"
+    },
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "suruga fundicola",
+        "length": "12-15cm",
+        "weight": "20-30gr",
+        "depth": "80-300m",
+        "range": "temperate",
+        "distribucion": "noroeste del océano Pacífico: desde el mar de Japón hasta el este del mar de China",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_27.html",
+        "id": "107"
+    },
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "coelophrys bradburyae",
+        "length": "5-15cm",
+        "weight": "20-30gr",
+        "depth": "500-600m",
+        "range": "deep-water",
+        "distribucion": "noreste del océano Pacífico, Japón",
+        "IUCN": "datos insuficientes",
+        "url": "./src/galleries/gallery_1/fishes/fishes_27.html",
+        "id": "108"
+    },   
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -1374,7 +1426,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_27.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_28.html",
         "id": ""
     }
 ]
