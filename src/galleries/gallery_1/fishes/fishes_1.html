@@ -67,20 +67,26 @@
             <img class="glow-img card-img" src="../../../../img/galleries/gallery_1/fishes_1.jpg" width="525">
             <div style="margin-top: 10px;">
                 <div class="names-list">
+                    <div class="name-info" onmouseover="showImage(this, 'https://www.zukan-bouz.com/public_image/Fish/1241/Thumb500/kuronutaunagi.jpg')">
                     1. Mixino marrón<br>
                     <i>　クロヌタウナギ</i><br>
                     <i>　Paramyxine atami</i><br>
                     　10-60cm<br>
                     <br>
-                    2. Mixino japonés<br>
+                    </div>
+                    <div class="name-info" onmouseover="showImage(this, 'https://www.zukan-bouz.com/public_image/Fish/1241/Thumb500/kuronutaunagi.jpg')">
+                        2. Mixino japonés<br>
                     <i>　ムラサキヌタウナギ</i><br>
                     <i>　Eptatretus okinoseanus</i><br>
                     　6-10cm<br>
                     <br>
-                    3. Tiburón gato manchado japonés<br>
+                    </div>
+                    <div class="name-info" onmouseover="showImage(this, 'https://www.zukan-bouz.com/public_image/Fish/1241/Thumb500/kuronutaunagi.jpg')">
+                        3. Tiburón gato manchado japonés<br>
                     <i>　ナヌカザメ</i><br>
                     <i>　Cephaloscyllium umbratile</i><br>
                     　30-60cm (Lv.15cm)
+                    </div>
                 </div>
                 <div class="subcard">
                     <div>
@@ -116,8 +122,49 @@
 
         </div>
 
+        <div class="modal">
+            <div class="image-container">
+              <img class="image" src="image1.jpg" alt="Image 1">
+            </div>
+          </div>
     </div>
 </body>
 
 </html>
 
+<script>
+function showImage(div, imageURL) {
+      // Get the image container in the modal
+      const imageContainer = document.querySelector('.modal .image-container');
+
+      // Remove the existing image
+      imageContainer.querySelector('img.image').remove();
+
+      // Add the new image
+      const imageElement = document.createElement('img');
+      imageElement.src = imageURL;
+      imageElement.classList.add('image');
+      imageContainer.appendChild(imageElement);
+
+      // Center the modal
+      const modal = document.querySelector('.modal');
+      const modalWidth = modal.offsetWidth;
+      const modalHeight = modal.offsetHeight;
+      const screenWidth = window.innerWidth;
+      const screenHeight = window.innerHeight;
+      const centerX = screenWidth / 2;
+      const centerY = screenHeight / 2;
+      modal.style.left = `<span class="math-inline">\{centerX \- modalWidth / 2\}px\`;
+modal\.style\.top \= \`</span>{centerY - modalHeight / 2}px`;
+
+      // Show the modal
+      modal.style.display = 'block';
+    }
+
+    // Hide the modal when the mouse is not on a <div>
+    window.addEventListener('mouseout', function (event) {
+      if (!event.target.classList.contains('name-info')) {
+        const modal = document.querySelector('.modal');
+        modal.style.display = 'none';
+      }})
+</script>
