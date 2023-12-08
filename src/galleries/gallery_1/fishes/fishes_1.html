@@ -123,7 +123,7 @@
 
         <div id="modal-container" class="modal-fullscreen" style="display: none;">
             <div id="modal-content">
-                <img src=""/>
+                <!-- <img src=""/> -->
             </div>
         </div>
 
@@ -147,12 +147,21 @@
     modalContainer.classList.add('modal-fullscreen');
     modalContent.classList.add('modal-fullscreen');
 
-    // Set modal content to display image
-    modalContent.innerHTML = `<img src="${info_json.img_1}" class="glow-img card-img" style="display: block; margin: 0 auto; margin-top: 30px; width="325" />`;
-    
     // Set modal content to display lorem ipsum for the selected name
-    // modalContent.textContent = `Lorem ipsum ${name}`;
-
+    modalContent.innerHTML = `
+    <div style="text-align: center">
+    <h2 style="color: white; font-style: bold; text-align: center;">${info_json.name.toUpperCase()}</h2>
+    <img src="${info_json.img_1}" class="glow-img card-img" style="display: block; margin: 0 auto; margin-top: 30px; width="325"/>
+        <p style="color: white; text-align: center;">${info_json.info_1}</p>
+        <hr>
+        <p style="color: white; text-align: center;">${info_json.info_2}</p>
+        <hr>
+        <p style="color: white; text-align: center;">${info_json.info_3}</p>
+    </div>
+    `;
+    // Set modal content to display image
+    // modalContent.innerHTML = `<img src="${info_json.img_1}" class="glow-img card-img" style="display: block; margin: 0 auto; margin-top: 30px; width="325" />`;
+    
     // Show the modal
     modalContainer.style.display = 'block';
     window.scrollTo(0, 0);
