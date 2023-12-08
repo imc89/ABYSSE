@@ -67,21 +67,21 @@
             <img class="glow-img card-img" src="../../../../img/galleries/gallery_1/fishes_1.jpg" width="525">
             <div style="margin-top: 10px;">
                 <div class="names-list">
-                    <div class="name-info" onmouseover="showImage(this, 'https://www.zukan-bouz.com/public_image/Fish/1241/Thumb500/kuronutaunagi.jpg')">
+                    <div class="name-info" onclick="jsonInfo('https://raw.githubusercontent.com/imc89/ABYSSE/main/src/data/species-data/1_paramyxine_atami.json')">
                     1. Mixino marrón<br>
                     <i>　クロヌタウナギ</i><br>
                     <i>　Paramyxine atami</i><br>
                     　10-60cm<br>
                     <br>
                     </div>
-                    <div class="name-info" onmouseover="showImage(this, 'https://www.zukan-bouz.com/public_image/Fish/1241/Thumb500/kuronutaunagi.jpg')">
+                    <div class="name-info">
                         2. Mixino japonés<br>
                     <i>　ムラサキヌタウナギ</i><br>
                     <i>　Eptatretus okinoseanus</i><br>
                     　6-10cm<br>
                     <br>
                     </div>
-                    <div class="name-info" onmouseover="showImage(this, 'https://www.zukan-bouz.com/public_image/Fish/1241/Thumb500/kuronutaunagi.jpg')">
+                    <div class="name-info">
                         3. Tiburón gato manchado japonés<br>
                     <i>　ナヌカザメ</i><br>
                     <i>　Cephaloscyllium umbratile</i><br>
@@ -119,52 +119,48 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
-        <div class="modal">
-            <div class="image-container">
-              <img class="image" src="image1.jpg" alt="Image 1">
+        <div id="modal-container" class="modal-fullscreen" style="display: none;">
+            <div id="modal-content">
+                <img src=""/>
             </div>
-          </div>
-    </div>
+        </div>
+
 </body>
 
 </html>
 
 <script>
-function showImage(div, imageURL) {
-      // Get the image container in the modal
-      const imageContainer = document.querySelector('.modal .image-container');
-
-      // Remove the existing image
-      imageContainer.querySelector('img.image').remove();
-
-      // Add the new image
-      const imageElement = document.createElement('img');
-      imageElement.src = imageURL;
-      imageElement.classList.add('image');
-      imageContainer.appendChild(imageElement);
-
-      // Center the modal
-      const modal = document.querySelector('.modal');
-      const modalWidth = modal.offsetWidth;
-      const modalHeight = modal.offsetHeight;
-      const screenWidth = window.innerWidth;
-      const screenHeight = window.innerHeight;
-      const centerX = screenWidth / 2;
-      const centerY = screenHeight / 2;
-      modal.style.left = `<span class="math-inline">\{centerX \- modalWidth / 2\}px\`;
-modal\.style\.top \= \`</span>{centerY - modalHeight / 2}px`;
-
-      // Show the modal
-      modal.style.display = 'block';
+   async function jsonInfo(info_json) {
+        const response = await fetch(info_json);
+        const jsonData = await response.json();
+        openModal(jsonData);
     }
 
-    // Hide the modal when the mouse is not on a <div>
-    window.addEventListener('mouseout', function (event) {
-      if (!event.target.classList.contains('name-info')) {
-        const modal = document.querySelector('.modal');
-        modal.style.display = 'none';
-      }})
+  function openModal(info_json) {
+    // Create the modal
+    const modalContainer = document.getElementById('modal-container');
+    const modalContent = document.getElementById('modal-content');
+
+    // Add class to make modal fullscreen
+    modalContainer.classList.add('modal-fullscreen');
+    modalContent.classList.add('modal-fullscreen');
+
+    // Set modal content to display image
+    modalContent.innerHTML = `<img src="${info_json.img_1}" class="glow-img card-img" style="display: block; margin: 0 auto; margin-top: 30px; width="325" />`;
+    
+    // Set modal content to display lorem ipsum for the selected name
+    // modalContent.textContent = `Lorem ipsum ${name}`;
+
+    // Show the modal
+    modalContainer.style.display = 'block';
+
+    // Close the modal on click outside
+    modalContainer.addEventListener('click', (event) => {
+      if (!event.target.closest('.modal-content')) {
+        modalContainer.style.display = 'none';
+      }
+    });
+  }
 </script>

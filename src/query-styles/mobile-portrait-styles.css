@@ -70,6 +70,22 @@
         margin-bottom: 25px;
     }
 
+    .names-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .name-info {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
+    .name-info:hover {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
     /* BUTTONS */
     .light-button {
         position: relative;
