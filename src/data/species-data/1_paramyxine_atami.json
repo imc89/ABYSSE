@@ -1,13 +1,10 @@
-
-[
-    {
-        "name": "Paramyxine atami",
-        "info_1": "loremloremloremloremloremloremloremloremloremloremloremlorem ipsumipsumipsumipsumipsumipsumipsumipsumipsumipsumipsum diantidiantidiantidiantidiantidiantidiantidianti",
-        "info_2": "",
-        "info_3": "",
-        "img_1": "../../../img/galleries/all_species/1-Paramyxine atami.png",
-        "img_2": "",
-        "img_3": "",
-        "id": "01"
-    }
-]
+{
+    "name": "Paramyxine atami",
+    "info_1": "loremloremloremloremloremloremloremloremloremloremloremlorem ipsumipsumipsumipsumipsumipsumipsumipsumipsumipsumipsum diantidiantidiantidiantidiantidiantidiantidianti",
+    "info_2": "",
+    "info_3": "",
+    "img_1": "../../../img/galleries/all_species/1-Paramyxine atami.png",
+    "img_2": "",
+    "img_3": "",
+    "id": "01"
+}
