@@ -36,6 +36,7 @@
    
     <script src="../../../scripts/cardsCounter.js"></script>
     <script src="../../../scripts/nextPageGallery.js"></script>
+    <script src="../../../scripts/infoModal.js"></script>
 
     <title>ABYSSE_GALLERY_1_2</title>
 
@@ -76,15 +77,19 @@
             <img class="glow-img card-img" src="../../../../img/galleries/gallery_1/fishes_2.jpg" width="525">
             <div style="margin-top: 10px;">
                 <div class="names-list">
-                    1. Celacanto<br>
-                    <i>　シーラカンス</i><br>
-                    <i>　Latimeria chalumnae</i><br>
-                    　1.5-2m<br>
+                    <div class="name-info" onclick="jsonInfo('https://raw.githubusercontent.com/imc89/ABYSSE/main/src/data/species-data/4-latimeria_chalumnae.json')">
+                        1. Celacanto<br>
+                        <i>　シーラカンス</i><br>
+                        <i>　Latimeria chalumnae</i><br>
+                        　1.5-2m<br>
+                    </div>
                     <br>
-                    2. Celacanto Indonesio<br>
+                    <div class="name-info" onclick="jsonInfo('https://raw.githubusercontent.com/imc89/ABYSSE/main/src/data/species-data/5-latimeria_menadoensis.json')">
+                        2. Celacanto Indonesio<br>
                     <i>　インドネシアシーラカンス</i><br>
                     <i>　Latimeria menadoensis</i><br>
-                    　1.2-1.8m
+                    　1.2-1.8m<br>
+                    </div>
                 </div>
                 <div class="subcard">
                     <div>
@@ -118,10 +123,14 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
+<!-- MODAL -->
+<div id="modal-container" class="modal-fullscreen" style="display: none;">
+    <div id="modal-content">
+    </div>
+</div>
+
 </body>
 
 </html>
