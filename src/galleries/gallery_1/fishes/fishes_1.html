@@ -155,9 +155,10 @@
 
     // Show the modal
     modalContainer.style.display = 'block';
-
+    window.scrollTo(0, 0);
     // Close the modal on click outside
     modalContainer.addEventListener('click', (event) => {
+        
       if (!event.target.closest('.modal-content')) {
         modalContainer.style.display = 'none';
       }
