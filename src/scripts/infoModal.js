@@ -18,7 +18,7 @@ function openModal(info_json) {
 
   // Set modal content to display lorem ipsum for the selected name
   modalContent.innerHTML = `
-    <div style="text-align: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: auto;">
+    <div style="text-align: center; position: absolute; top: 0; left: 0; max-width: 100%; width: 100%; height: 100%; overflow: auto;">
       <div class="modal-content-inner" style="height: 100%; overflow-y: auto;">
         <h2 style="color: white; font-style: bold; text-align: center;">${info_json.name.toUpperCase()}</h2>
         <img src="${info_json.img_1}" class="glow-img card-img" style="display: block; margin: 0 auto; margin-top: 30px; width="325"/>
