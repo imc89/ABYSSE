@@ -36,7 +36,8 @@ function openModal(info_json) {
 
   // Enable scrolling only for the modal container
   modalContainer.style.overflow = 'auto';
-
+  
+  window.scrollTo(0,0);
   // Close the modal on click outside
   modalContainer.addEventListener('click', (event) => {
     document.body.style.overflow = ''; // Re-enable scrolling for the main page
