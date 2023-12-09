@@ -22,11 +22,11 @@ function openModal(info_json) {
       <div class="modal-content-inner" style="height: 100%; overflow-y: auto;">
         <h2 style="color: white; font-style: bold; text-align: center;">${info_json.name.toUpperCase()}</h2>
         <img src="${info_json.img_1}" class="glow-img card-img" style="display: block; margin: 0 auto; margin-top: 30px; width="325"/>
-        <p style="color: white; text-align: center;">${info_json.info_1}</p>
+        <p style="color: white; text-align: justify; padding:10px">${info_json.info_1}</p>
         <hr>
-        <p style="color: white; text-align: center;">${info_json.info_2}</p>
+        <p style="color: white; text-align: justify; padding:10px">${info_json.info_2}</p>
         <hr>
-        <p style="color: white; text-align: center;">${info_json.info_3}</p>
+        <p style="color: white; text-align: justify; padding:10px">${info_json.info_3}</p>
       </div>
     </div>
   `;
