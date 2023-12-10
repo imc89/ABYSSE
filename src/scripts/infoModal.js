@@ -29,7 +29,7 @@ function openModal(info_json) {
 `;
 
   // When the user clicks the button, open the modal 
-  document.body.style.overflow = 'hidden';
+  document.body.style.overflow = 'none';
 
   modalContainer.style.display = "block";
   window.scrollTo(0, 0);
