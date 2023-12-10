@@ -5,40 +5,41 @@ async function jsonInfo(info_json) {
 }
 
 function openModal(info_json) {
-  // Disable scrolling for the main page
-  document.body.style.overflow = 'hidden';
+ // Get the modal
+var modalContainer = document.getElementById("modal-container");
 
-  // Create the modal
-  const modalContainer = document.getElementById('modal-container');
-  const modalContent = document.getElementById('modal-content');
+// Get the button that opens the modal
 
-  // Add class to make modal fullscreen
-  modalContainer.classList.add('modal-fullscreen');
-  modalContent.classList.add('modal-fullscreen');
+// Get the <span> element that closes the modal
 
-  // Set modal content to display lorem ipsum for the selected name
-  modalContent.innerHTML = `
-    <div style="text-align: center; position: absolute; top: 0; left: 0; max-width: 100%; width: 100%; height: 100%; overflow-y: hidden;">
-      <div class="modal-content-inner" style="height: 100%; overflow-y: auto;">
-        <h2 style="color: white; font-style: bold; text-align: center; padding: 20px 0;">${info_json.name.toUpperCase()}</h2>
+const modalContent = document.getElementById('modal-content');
 
-        <img src="${info_json.img_1}" class="glow-img card-img" style="display: block; margin: 0 auto; margin-top: 30px; width="325"; padding: 20px 0 0 0;">
+modalContent.innerHTML = `
+<div style="text-align: center; position: absolute; top: 0; left: 0; max-width: 100%; width: 100%; height: 100%; overflow: auto;">
+  <div class="modal-content-inner" style="height: 100%; overflow-y: auto;">
+    <h2 style="color: white; font-style: bold; text-align: center;">${info_json.name.toUpperCase()}</h2>
+    <img src="${info_json.img_1}" class="glow-img card-img" style="display: block; margin: 0 auto; margin-top: 30px; width="325"/>
+    <p style="color: white; text-align: justify; padding:10px">${info_json.info_1}</p>
+    <hr>
+    <p style="color: white; text-align: justify; padding:10px">${info_json.info_2}</p>
+    <hr>
+    <p style="color: white; text-align: justify; padding:10px">${info_json.info_3}</p>
+  </div>
+</div>
+`;
 
-        <p style="color: white; text-align: center; padding: 20px;">${info_json.info_1}</p>
-        <hr>
-        <p style="color: white; text-align: center; padding: 20px;">${info_json.info_2}</p>
-        <hr>
-        <p style="color: white; text-align: center; padding: 20px;">${info_json.info_3}</p>
-      </div>
-    </div>
-  `;
+// When the user clicks the button, open the modal 
 
-  // Show the modal
-  modalContainer.style.display = 'block';
+modalContainer.style.display = "block";
+  window.scrollTo(0,0);
 
-  // Enable scrolling only for the modal container
-  modalContainer.style.overflow = 'auto';
-  window.scrollTo(0,0)
+
+// When the user clicks on <span> (x), close the modal
+// span.onclick = function() {
+//   modal.style.display = "none";
+// }
+
+// When the user clicks anywhere outside of the modal, close it
   // Close the modal on click outside
   modalContainer.addEventListener('click', (event) => {
     document.body.style.overflow = ''; // Re-enable scrolling for the main page
