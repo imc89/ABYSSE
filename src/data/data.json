@@ -1482,6 +1482,19 @@
         "id": "113"
     },   
     {
+        "nombre": "anguila japonesa",
+        "name": "japanese eel",
+        "latin": "anguilla japonica",
+        "length": "40-150cm",
+        "weight": "2-5kg",
+        "depth": "1-400m",
+        "range": "subtropical",
+        "distribucion": "océanos de Japón hasta el Mar de China Oriental, Taiwán, Corea, China y el norte de Filipinas",
+        "IUCN": "en peligro",
+        "url": "./src/galleries/gallery_1/fishes/fishes_29.html",
+        "id": "114"
+    },   
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -1491,7 +1504,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_29.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_30.html",
         "id": ""
     }
 ]
