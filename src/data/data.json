@@ -1417,6 +1417,71 @@
         "id": "108"
     },   
     {
+        "nombre": "pez baboso de okhotsk",
+        "name": "okhotsk snailfish",
+        "latin": "liparis ochotensis",
+        "length": "42-66cm",
+        "weight": "1kg",
+        "depth": "0-760m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Norte: Mar de Japón desde Corea hasta el Estrecho de Tatar, Mar de Okhotsk desde la desembocadura del río Amur hasta la Bahía de Aniva frente al Cabo Terpeniya, Pacífico frente a Hokkaido hasta las Islas Kuriles y el sureste de Kamchatka, el norte y el este del Mar de Bering",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_28.html",
+        "id": "109"
+    },   
+    {
+        "nombre": "espartano japones",
+        "name": "japanese armorhead",
+        "latin": "pentaceros japonicus",
+        "length": "20-25cm",
+        "weight": "200-300gr",
+        "depth": "100-830m",
+        "range": "subtropical",
+        "distribucion": "océano Pacífico occidental: sur de Japón hasta Australia y Nueva Zelanda",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_28.html",
+        "id": "110"
+    },   
+    {
+        "nombre": "espartano de aleta larga",
+        "name": "Longfin armorhead",
+        "latin": "pseudopentaceros wheeleri",
+        "length": "30-45cm",
+        "weight": "1kg",
+        "depth": "150-800m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Norte: Golfo de Alaska hasta el Océano Pacífico Norte frente al centro de California y el sur de Japón, con centro de abundancia en los montes submarinos del sur de la Cordillera Emperador-norte de Hawai",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_28.html",
+        "id": "111"
+    },   
+    {
+        "nombre": "trompetero",
+        "name": "longspine snipefish",
+        "latin": "macroramphosus scolopax",
+        "length": "12-20cm",
+        "weight": "50-100gr",
+        "depth": "25-600m",
+        "range": "subtropical",
+        "distribucion": "océano Atlántico occidental: Golfo de Maine hasta Argentina. Atlántico oriental y Mediterráneo. Pacífico Indo-Occidental",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_28.html",
+        "id": "112"
+    },   
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "lycenchelys maculata",
+        "length": "25-30cm",
+        "weight": "1kg",
+        "depth": "200-300m",
+        "range": "deep-water",
+        "distribucion": "noreste del océano Pacífico: Japón y Rusia",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_28.html",
+        "id": "113"
+    },   
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -1426,7 +1491,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_28.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_29.html",
         "id": ""
     }
 ]
