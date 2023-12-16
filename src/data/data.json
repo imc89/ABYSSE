@@ -1495,6 +1495,32 @@
         "id": "114"
     },   
     {
+        "nombre": "mixino costero",
+        "name": "inshore hagfish",
+        "latin": "eptatretus burgeri",
+        "length": "40-60cm",
+        "weight": "100gr",
+        "depth": "10-270m",
+        "range": "temperate",
+        "distribucion": "océano Pacífico Noroeste: Mar de Japón y este de Japón hasta Taiwán",
+        "IUCN": "casi amenazado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_30.html",
+        "id": "115"
+    },   
+    {
+        "nombre": "anguila serpiente cola de crin",
+        "name": "manetail snake eel",
+        "latin": "ophichthus urolophus",
+        "length": "60-150cm",
+        "weight": "5kg",
+        "depth": "100-600m",
+        "range": "tropical",
+        "distribucion": "océano Indo-Pacífico",
+        "IUCN": "menor preocupación",
+        "url": "./src/galleries/gallery_1/fishes/fishes_30.html",
+        "id": "116"
+    },   
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -1504,7 +1530,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_30.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_31.html",
         "id": ""
     }
 ]
