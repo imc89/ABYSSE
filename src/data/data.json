@@ -1521,6 +1521,58 @@
         "id": "116"
     },   
     {
+        "nombre": "dragoncillo ojos grandes de aletas altas",
+        "name": "highfin bigeye dragonet",
+        "latin": "foetorepus altivelis",
+        "length": "12-17cm",
+        "weight": "20-30gr",
+        "depth": "70-600m",
+        "range": "deep-water",
+        "distribucion": "océano Indo-Pacífico: Seychelles, Indonesia y noroeste de Australia. También desde el sur de Japón hasta el norte del Mar de China Meridional",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_31.html",
+        "id": "117"
+    },   
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "centrodraco otohime",
+        "length": "11-12cm",
+        "weight": "20-30gr",
+        "depth": "200-350m",
+        "range": "deep-water",
+        "distribucion": "océano Pacífico Noroeste: dorsal oceánica Kyushu-Palau",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_31.html",
+        "id": "118"
+    },   
+    {
+        "nombre": "pez buscador",
+        "name": "searcher",
+        "latin": "bathymaster signatus",
+        "length": "30-40cm",
+        "weight": "300-400gr",
+        "depth": "0-825m",
+        "range": "polar",
+        "distribucion": "océano Ártico, del noroeste al noreste del Pacífico: del mar de Siberia Oriental al este de Kamchatka y las islas Commander, Rusia y Washington, EE.UU, Japón incluyendo Hokkaido y el Mar de Okhotsk",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_31.html",
+        "id": "119"
+    },   
+    {
+        "nombre": "-",
+        "name": "-",
+        "latin": "lycenchelys aurantiaca",
+        "length": "13-15cm",
+        "weight": "20gr",
+        "depth": "500-700m",
+        "range": "deep-water",
+        "distribucion": "noreste del océano Pacífico, Japón",
+        "IUCN": "no evaluado",
+        "url": "./src/galleries/gallery_1/fishes/fishes_31.html",
+        "id": "120"
+    },   
+    {
         "nombre": "",
         "name": "",
         "latin": "",
@@ -1530,7 +1582,7 @@
         "range": "",
         "distribucion": "",
         "IUCN": "",
-        "url": "./src/galleries/gallery_1/fishes/fishes_31.html",
+        "url": "./src/galleries/gallery_1/fishes/fishes_32.html",
         "id": ""
     }
 ]
