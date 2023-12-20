@@ -74,14 +74,19 @@ function autocomplete(event, filterSearch) {
 
     // Recorremos species y generamos un array con las coincidencias de name y nombre.
     // Go through species and generate an array with the name and nombre matches .
+    const lang = window.sessionStorage.getItem('lang');
     for (let fish of species) {
-      if (fish.nombre.startsWith(value.toLowerCase())) {
-        filteredResults.push(fish.nombre)
-      }
-      if (fish.name.startsWith(value.toLowerCase())) {
-        filteredResults.push(fish.name)
-      }
+      if (value.length >= 3) {
+        // if (fish.nombre.startsWith(value.toLowerCase()) && (!lang || lang == 'es')) {
+        if (fish.nombre.includes(value.toLowerCase()) && (!lang || lang == 'es')) {
 
+          filteredResults.push(fish.nombre)
+        }
+        // if (fish.name.startsWith(value.toLowerCase()) && (lang == 'en')) {
+        if (fish.name.includes(value.toLowerCase()) && (lang == 'en')) {
+          filteredResults.push(fish.name)
+        }
+      }
     }
   } else {
     // Se limpia el array para evitar duplicados al hacer varias busquedas.
@@ -90,8 +95,11 @@ function autocomplete(event, filterSearch) {
     // Recorremos species y generamos un array con las coincidencias de latin.
     // Go through species and generate an array with the latin matches .
     for (let fish of species) {
-      if (fish.latin.startsWith(value.toLowerCase())) {
-        filteredResults.push(fish.latin)
+      if (value.length >= 3) {
+        // if (fish.latin.startsWith(value.toLowerCase())) {
+          if (fish.latin.includes(value.toLowerCase())) {
+          filteredResults.push(fish.latin)
+        }
       }
     };
   }
@@ -104,7 +112,7 @@ function autocomplete(event, filterSearch) {
       // En caso de que el dato sea desconocido, es decir, '-', no se muestra nada.
       // In case of unknown data '-', nothing is displayed.
       if (result !== '-') {
-      return `
+        return `
         <li
           id='autocomplete-result-${index}'
           class='autocomplete-result${isSelected ? " selected" : ""}'
@@ -113,12 +121,13 @@ function autocomplete(event, filterSearch) {
         >
           ${result}
         </li>
-      `;}
+      `;
+      }
     })
     .join("");
   // En caso de que el dato sea desconocido, es decir, '-', no se muestra nada.
   // In case of unknown data '-', nothing is displayed.
-  if (!filteredResults.length || filteredResults === [] || filteredResults.includes('-')) {
+  if (!filteredResults.length || filteredResults.includes('-')) {
     resultsElem.classList.add("hidden");
   } else {
     resultsElem.classList.remove("hidden");
@@ -179,17 +188,18 @@ function selectResult() {
   const value = inputElem.value;
   const autocompleteValue = filteredResults[activeIndex];
   const activeItem = this.getItemAt(activeIndex);
-  if (activeItem) {
-    activeItem.classList.add('selected');
-    activeItem.setAttribute('aria-selected', 'true');
-  }
-  if (!value || !autocompleteValue) {
-    return;
-  }
-  if (value !== autocompleteValue) {
-    inputElem.value = autocompleteValue;
-    inputElem.setSelectionRange(value.length, autocompleteValue.length);
-  }
+  // if (activeItem) {
+  //   activeItem.classList.add('selected');
+  //   activeItem.setAttribute('aria-selected', 'true');
+  // }
+  // if (!value || !autocompleteValue) {
+  //   return;
+  // }
+  // if (value !== autocompleteValue) {
+  //   // Pinta el primer valor encontrado en el placeholder
+  //   inputElem.value = autocompleteValue;
+  //   inputElem.setSelectionRange(value.length, autocompleteValue.length);
+  // }
 }
 function selectItem(node) {
   if (node) {
