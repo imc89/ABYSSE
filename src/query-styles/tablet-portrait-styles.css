@@ -1,4 +1,6 @@
 /* iPad Portrait */
 @media screen and (min-device-width: 481px) and (orientation:portrait) {
-
+    .right-column {
+        margin: 0 auto;
+    }
 }
