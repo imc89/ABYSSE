@@ -36,10 +36,55 @@
         background: transparent;
     }
 
+    nav ul {
+        margin: -10px;
+    }
+    
+    .flex-container {
+        margin-left: -5px
+    }
+    #slider {
+        visibility: hidden;
+    }
     .menu {
         background: transparent;
+    }
+
+    .menu ul {
         display: flex;
     }
+
+    .menu ul li+li {
+        border: 1px solid rgb(51, 66, 153);
+        text-align: center;
+        margin: -1px;
+        width: 175px;
+       height: 96px;
+    }
+    .menu img {
+        display: none;
+    }
+
+    .slider.closed {
+        margin-left: -70px;
+        height: 60px;
+    }
+
+    .sliderPadding {
+        padding: 0px 42px;
+    }
+
+
+
+    .menu img {
+        display: none;
+    }
+
+    .menu-button-title {
+        position: inherit;
+    }
+
+
 
     .translator {
         position: relative;
@@ -49,10 +94,10 @@
 
     /* MENU RESPONSIVE STYLE */
     .desktopMenu {
-        display: block;
+        display: none;
     }
 
     .mobileMenu {
-        display: none;
+        display: block;
     }
 }
