@@ -1,6 +1,10 @@
 /* iPad Portrait */
-@media screen and (min-device-width: 481px) and (orientation:portrait) {
+@media screen and (max-width: 660px) and (orientation:portrait) {
     .right-column {
         margin: 0 auto;
+    }
+
+    .tools-container {
+        display: block;
     }
 }
