@@ -67,7 +67,8 @@
 
     .slider.closed {
         margin-left: -70px;
-        margin-top: -29px;
+        margin-top: -210px;
+        position: relative;    
         height: 60px;
     }
 
