@@ -52,14 +52,16 @@
 
     .menu ul {
         display: flex;
+        height: 70px;
     }
 
     .menu ul li+li {
         border: 1px solid rgb(51, 66, 153);
+        background-image: linear-gradient(rgb(51, 57, 51), rgb(34, 41, 34));
         text-align: center;
         margin: -1px;
         width: 175px;
-       height: 96px;
+        height: 70px;
     }
     .menu img {
         display: none;
@@ -84,6 +86,7 @@
 
     .menu-button-title {
         position: inherit;
+        margin-top: 10px;
     }
 
 
