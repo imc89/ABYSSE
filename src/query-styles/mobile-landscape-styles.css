@@ -22,7 +22,7 @@
         flex-direction: column;
     }
 
-    .tool-center {
+    .tool-center ul {
         /* position: relative;
         left: 50%;
         transform: translateX(-50%); */
@@ -39,13 +39,15 @@
     nav ul {
         margin: -10px;
     }
-    
+
     .flex-container {
         margin-left: -5px
     }
+
     #slider {
         visibility: hidden;
     }
+
     .menu {
         background: transparent;
     }
@@ -63,6 +65,7 @@
         width: 175px;
         height: 70px;
     }
+
     .menu img {
         display: none;
     }
@@ -70,15 +73,13 @@
     .slider.closed {
         margin-left: -70px;
         margin-top: -210px;
-        position: relative;    
+        position: relative;
         height: 60px;
     }
 
     .sliderPadding {
         padding: 0px 42px;
     }
-
-
 
     .menu img {
         display: none;
@@ -89,7 +90,9 @@
         margin-top: 10px;
     }
 
-
+    .translator-container {
+        width: 302px;
+    }
 
     .translator {
         position: relative;
