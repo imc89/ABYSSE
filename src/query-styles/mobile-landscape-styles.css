@@ -54,7 +54,7 @@
 
     .menu ul {
         display: flex;
-        height: 70px;
+        height: 60px;
     }
 
     .menu ul li+li {
@@ -63,7 +63,7 @@
         text-align: center;
         margin: -1px;
         width: 175px;
-        height: 70px;
+        height: 60px;
     }
 
     .menu img {
@@ -72,9 +72,9 @@
 
     .slider.closed {
         margin-left: -70px;
-        margin-top: -210px;
+        margin-top: -163px;
         position: relative;
-        height: 60px;
+        height: 55px;
     }
 
     .sliderPadding {
@@ -87,10 +87,11 @@
 
     .menu-button-title {
         position: inherit;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .translator-container {
+        margin-top: 0px;
         width: 302px;
     }
 
