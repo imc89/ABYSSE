@@ -41,10 +41,8 @@ async function setLocale(newLocale) {
 // Recuperar traducciones del objeto JSON para la configuración regional escogida.
 // Retrieve translations of the JSON object for the chosen locale.
 async function fetchTranslationsFor(newLocale) {
-    if (newLocale) {
-        const response = await fetch(`https://raw.githubusercontent.com/imc89/ABYSSE/main/src/locales/${newLocale}.json`);
-        return await response.json();
-    }
+    const response = await fetch(`https://raw.githubusercontent.com/imc89/ABYSSE/main/src/locales/${newLocale}.json`);
+    return await response.json();
 }
 
 //Sustituir el texto de cada elemento con atributo data-i18n-key por la traducción correspondiente a su data-i18n-key.
